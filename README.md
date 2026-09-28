@@ -1,6 +1,6 @@
 # Student Government Budget Breakdown
 
-React starter for the Fiscal Year 2027 student government budget site.
+React boilerplate for the fiscal year 2027 student government budget site.
 
 ## Development
 
