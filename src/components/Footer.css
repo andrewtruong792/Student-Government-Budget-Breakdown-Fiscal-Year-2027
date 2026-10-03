@@ -1,0 +1,45 @@
+.site-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #111111;
+    color: #ffffff;
+    height: 240px;
+}
+.content {
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.description {
+    color: #D1D5DB;
+}
+.descriptionHeader {
+    display: flex;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 28px;
+    width: 28px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    color: #111111;
+}
+.badge text {
+    align-items: center;
+    justify-content: center;
+}
+
+.badge p {
+    align-items: center;
+    justify-content: center;
+}
+
+.references {
+
+}
