@@ -8,8 +8,7 @@
 }
 .content {
     justify-content: space-between;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 60px;
 }
 .description {
     color: #D1D5DB;
@@ -19,6 +18,8 @@
     font-weight: 700;
     font-size: 14px;
     color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
 }
 .badge {
     display: flex;
@@ -34,12 +35,55 @@
     align-items: center;
     justify-content: center;
 }
-
-.badge p {
-    align-items: center;
-    justify-content: center;
+.descriptionHeader p {
+    padding-left: 8px;
 }
-
+.descriptionText {
+    display: flex;
+    font-size: 13px;
+    color: #D1D5DB;
+    padding-top: 8px;
+    max-width: 360px;
+}
 .references {
-
+    display: flex;
+    flex-direction: row;
+    padding-right: 90px;
+    font-size: 13px;
+    gap: 100px;
+    align-items: center;
+}
+.documentSections {
+    display: flex;
+    flex-direction: column;
+}
+.documentSections header {
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: #FFFFFF;
+    font-size: 12px;
+    padding-bottom: 16px;
+}
+.documentSections section {
+    font-weight: 400;
+    display: flex;
+    color: #D1D5DB;
+    padding-bottom: 12px;
+}
+.resources {
+    display: flex;
+    flex-direction: column;
+}
+.resources header {
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: #FFFFFF;
+    font-size: 12px;
+    padding-bottom: 16px;
+}
+.resources section {
+    font-weight: 400;
+    display: flex;
+    color: #D1D5DB;
+    padding-bottom: 12px;
 }
