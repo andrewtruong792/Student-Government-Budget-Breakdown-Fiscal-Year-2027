@@ -5,11 +5,11 @@ import logo from "../assets/squareSGlogo.png";
 export default function Header() {
     return (
         <header className="site-header">
-            <logo className="header-logo">
+            <a href="/" className="header-logo">
                 <img src={logo} alt="Student Government Logo" />
                 
                 <p flow="vertical">UTD<br/>BUDGET</p>
-            </logo>
+            </a>
             <nav className="header-nav">
                 <a href="/report-overview">Report Overview</a>
 
