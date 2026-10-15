@@ -1,3 +1,214 @@
-.home-placeholder {
-    font-size: 140px;
+.html, body {
+    background: linear-gradient(90deg,
+    #F7F4FF 0%,
+    #EEF8F5 50%,
+    #FFF7F2 100%
+  );
+  margin: 0;
+  min-height: 100%;
+}
+.hero {
+    position: relative;
+    aspect-ratio: 2400 / 916;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.campus-background {
+    position: absolute;
+    width: 100%;
+    opacity: 0.1;
+    object-fit: cover;
+    object-position: center center; 
+    height: 100%;
+    z-index: -1;
+}
+.overlay-content {
+    display: flex;
+}
+.overlay-content .title {
+    font-family: 'Frank Ruhl Libre';
+    font-weight: 700;
+    font-size: 85px;
+    margin: 0;
+}
+.overlay-content .body {
+    font-family: 'Inter';
+    max-width: 630px;
+    font-weight: 400;
+    font-size: 19px;
+    margin: 0;
+}
+.overlay-content .biglogo {
+    width: 333px;
+    height: 333px;
+    object-fit:contain;
+    flex-shrink: 0;
+    margin-left: 100px;
+    border-radius: 50%;
+    z-index: -2;
+}
+.button-row {
+    display: flex;
+    height: 55px;
+    gap: 12px;
+    margin-top: 40px;
+}
+.button-row .reports {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #111111;
+    font-weight: 700;
+    font-family: 'Inter';
+    font-size: 17px;
+    color: white;
+    border: 1.2px solid #000000;
+    width: 250px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.about-us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 700;
+    font-family: 'Inter';
+    font-size: 17px;
+    width: 140px;
+    border-radius: 30px;
+    border: 1.2px solid #8B8B8B;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+}
+.about-us:active {
+  border: 1.8px solid #8B8B8B;
+} 
+.arrow-section {
+    display: flex;
+    justify-content: center;
+    height: 170px;
+}
+.arrow-button {
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    width: 54px;
+    height: 54px;
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.arrow-text {
+    margin-left: 4px;
+    display: inline-block;
+    transform: rotate(90deg);
+}
+.explore-the-budget {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.explore-the-budget .title-wrapper {
+    align-items: left;
+    font-family: 'Frank Ruhl Libre';
+    font-weight: 700;
+    font-size: 50px;
+    margin: 0;
+    text-align: left;
+    padding-left: 30px; 
+    padding-bottom: 25px;
+    width: 1150px;
+}
+.explore-the-budget .module-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 1150px;
+}
+.module {
+    display: flex;
+    gap: 14px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    height: 240px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 24px;
+    box-shadow: 0 8px 12px rgba(17, 17, 17, 0.0784)
+}
+.module-title {
+    font: 'Inter';
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-left: 12px;
+}
+.module-body {
+    width: 330px;
+    height: 69px;
+    padding-left: 12px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    color: #4B5563;
+}
+.module-view-analysis {
+    font-size: 17px;
+    font-weight: 700;
+    padding-left: 12px;
+    text-decoration: none;
+    color: #000000;
+    width: 150px;
+    height: 25px;   
+}
+.divider-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 70px;
+}
+.divider {
+  width: 1150px;
+  height: 2px;
+  background: #B1B1B1;
+}
+.why-this-matters {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.why-this-matters .title-wrapper {
+    align-items: left;
+    font-family: 'Frank Ruhl Libre';
+    font-weight: 700;
+    font-size: 50px;
+    margin: 0;
+    text-align: left;
+    padding-left: 30px; 
+    padding-bottom: 25px;
+    width: 1150px;
+}
+.why-this-matters .body-wrapper {
+    align-items: left;
+    width: 1150px;
+    height: 170px;
+    padding-left: 30px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 160%;
+    color: #4B5563;
 }

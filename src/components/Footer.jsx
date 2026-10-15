@@ -3,7 +3,7 @@ import './Footer.css'
 
 export default function Footer() {
     return (
-        <footer className="site-footer">
+        <footer className="site-footer" style={{ position: 'relative', zIndex: 10 }}>
             <content className="content">
                 <description className="description">
                     <descriptionHeader className="descriptionHeader">

@@ -27,6 +27,8 @@
     justify-content: center;
     height: 28px;
     width: 28px;
+    min-height: 28px;
+    min-width: 28px;
     background-color: #ffffff;
     border-radius: 4px;
     color: #111111;
