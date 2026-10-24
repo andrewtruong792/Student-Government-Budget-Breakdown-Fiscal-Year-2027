@@ -205,10 +205,27 @@
 .why-this-matters .body-wrapper {
     align-items: left;
     width: 1150px;
-    height: 170px;
+    height: 120px;
     padding-left: 30px;
     font-size: 24px;
     font-weight: 400;
     line-height: 160%;
     color: #4B5563;
+}
+.boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 32px;
+  width: 100%;
+  padding: 20px 0 80px;
+}
+.square-outline {
+  width: 320px;
+  height: 320px;
+  border: 1px solid #313131;
+  border-radius: 18px;
+  background: transparent;
+  box-sizing: border-box;
 }

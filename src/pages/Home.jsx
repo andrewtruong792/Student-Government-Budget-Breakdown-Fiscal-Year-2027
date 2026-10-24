@@ -62,6 +62,14 @@ export default function Home() {
             <a className='body-wrapper'><a className='body'>University budgets affect everything from tuition costs and campus <br />resources to the student experience. We believe this information should <br />be accessible and understandable to everyone in the UTD community.</a></a>
         </section>
 
+        <div className='divider-wrapper'><div className='divider'></div></div>
+
+        <section className='boxes'>
+            <div className='square-outline'></div>
+            <div className='square-outline'></div>
+            <div className='square-outline'></div>
+        </section>
+
         </>
     );
 }
