@@ -1,5 +1,6 @@
 // App.jsx
 import Layout from "./components/Layout";
+import { YearProvider } from "./context/YearContext";
 import Home from "./pages/Home";
 import ReportOverview from "./pages/report-overview";
 import Revenue from "./pages/revenue";
@@ -20,11 +21,13 @@ function App() {
   const Page = pages[window.location.pathname] || Home;
 
   return (
-    <Layout>
-      <main>
-        <Page />
-      </main>
-    </Layout>
+    <YearProvider>
+      <Layout>
+        <main>
+          <Page />
+        </main>
+      </Layout>
+    </YearProvider>
   );
 }
 
