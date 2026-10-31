@@ -1,0 +1,3187 @@
+{
+  "status": 200,
+  "message": "success",
+  "data": {
+    "_id": "2027",
+    "operating_budget": {
+      "operating_revenues": {
+        "name": "Operating Revenues",
+        "rows": [
+          {
+            "label": "Tuition and Fees (Gross)",
+            "value": 497371064
+          },
+          {
+            "label": "Less Discounts and Allowances",
+            "value": -188044261
+          },
+          {
+            "label": "Federal Sponsored Programs",
+            "value": 127490491
+          },
+          {
+            "label": "State Sponsored Programs",
+            "value": 20810221
+          },
+          {
+            "label": "Local and Private Sponsored Programs",
+            "value": 15727006
+          },
+          {
+            "label": "Net Sales and Services of Educational Activities",
+            "value": 45077806
+          },
+          {
+            "label": "Net Auxiliary Enterprises",
+            "value": 63525578
+          },
+          {
+            "label": "Other Operating Revenues",
+            "value": 25620271
+          }
+        ],
+        "total": 607578176
+      },
+      "operating_expenses": {
+        "name": "Operating Expenses",
+        "rows": [
+          {
+            "label": "Instruction",
+            "value": 266559974
+          },
+          {
+            "label": "Academic Support",
+            "value": 111057403
+          },
+          {
+            "label": "Research",
+            "value": 159882291
+          },
+          {
+            "label": "Public Service",
+            "value": 16053779
+          },
+          {
+            "label": "Institutional Support",
+            "value": 57846392
+          },
+          {
+            "label": "Student Services",
+            "value": 30429340
+          },
+          {
+            "label": "Operation and Maintenance of Plant",
+            "value": 71817352
+          },
+          {
+            "label": "Scholarships and Fellowships",
+            "value": 40439960
+          },
+          {
+            "label": "Auxiliary Enterprises",
+            "value": 56610360
+          },
+          {
+            "label": "Depreciation and Amortization",
+            "value": 117112070
+          }
+        ],
+        "total": 927808921
+      },
+      "budgeted_nonoperating_revenues": {
+        "name": "Budgeted Nonoperating Revenues (Expenses)",
+        "rows": [
+          {
+            "label": "State Appropriations (Incl from Other State Agy)",
+            "value": 181558066
+          },
+          {
+            "label": "Federal/State/Local Nonexchange Sponsored",
+            "value": 0
+          },
+          {
+            "label": "Gifts in Support of Operations",
+            "value": 16560000
+          },
+          {
+            "label": "Non-Mandatory Trsfs In for Operations",
+            "value": 1526206
+          },
+          {
+            "label": "Net Investment Income",
+            "value": 98840138
+          },
+          {
+            "label": "Debt Service (Trsfs Out) - Interest",
+            "value": -30272829
+          },
+          {
+            "label": "Debt Service (Trsfs Out) - Principal",
+            "value": -30922908
+          },
+          {
+            "label": "Other Budget Trsfs Within the Institution",
+            "value": -608587
+          }
+        ],
+        "total": 236680086
+      },
+      "salaries_doe_and_instructional_admin": {
+        "name": "Summary of Faculty Salaries, Departmental Operating Expenses, and Instructional Administration",
+        "rows": [
+          {
+            "label": "Provost and V.P. Academic Affairs",
+            "value": {
+              "total": 2114625,
+              "faculty_salaries": 102344,
+              "departmental_operating_expenses": 782642,
+              "instructional_administration": 1229639
+            }
+          },
+          {
+            "label": "School of Arts, Humanities, and Technology",
+            "value": {
+              "total": 13046437,
+              "faculty_salaries": 10321153,
+              "departmental_operating_expenses": 2488115,
+              "instructional_administration": 237169
+            }
+          },
+          {
+            "label": "School of Natural Sciences and Mathematics",
+            "value": {
+              "total": 22929128,
+              "faculty_salaries": 20346797,
+              "departmental_operating_expenses": 2151354,
+              "instructional_administration": 430977
+            }
+          },
+          {
+            "label": "School of Economic, Political and Policy Sciences",
+            "value": {
+              "total": 8315495,
+              "faculty_salaries": 8207743,
+              "departmental_operating_expenses": 107752,
+              "instructional_administration": 0
+            }
+          },
+          {
+            "label": "School of Management",
+            "value": {
+              "total": 17459413,
+              "faculty_salaries": 9192857,
+              "departmental_operating_expenses": 7528864,
+              "instructional_administration": 737692
+            }
+          },
+          {
+            "label": "School of Behavioral and Brain Sciences",
+            "value": {
+              "total": 10863775,
+              "faculty_salaries": 9111124,
+              "departmental_operating_expenses": 1752651,
+              "instructional_administration": 0
+            }
+          },
+          {
+            "label": "School of Interdisciplinary Studies",
+            "value": {
+              "total": 1649725,
+              "faculty_salaries": 974817,
+              "departmental_operating_expenses": 388460,
+              "instructional_administration": 286448
+            }
+          },
+          {
+            "label": "School of Engineering and Computer Science",
+            "value": {
+              "total": 29764052,
+              "faculty_salaries": 24520471,
+              "departmental_operating_expenses": 4299416,
+              "instructional_administration": 944165
+            }
+          },
+          {
+            "label": "Other Instructional Support",
+            "value": {
+              "total": 18209498,
+              "faculty_salaries": 1573591,
+              "departmental_operating_expenses": 15459071,
+              "instructional_administration": 1176836
+            }
+          }
+        ],
+        "total": {
+          "total": 124352148,
+          "faculty_salaries": 84350897,
+          "departmental_operating_expenses": 34958325,
+          "instructional_administration": 5042926
+        }
+      },
+      "service_departments_funds": {
+        "name": "Service Departments and Revolving Funds",
+        "rows": [
+          {
+            "name": "Academic Affairs & Provost",
+            "rows": [
+              {
+                "label": "Callier Center Communication",
+                "value": {
+                  "estimated_income": 16535,
+                  "budgeted_expenses": 16535
+                }
+              },
+              {
+                "label": "Educational Technology Service",
+                "value": {
+                  "estimated_income": 65975,
+                  "budgeted_expenses": 65975
+                }
+              },
+              {
+                "label": "International Center",
+                "value": {
+                  "estimated_income": 8873,
+                  "budgeted_expenses": 8873
+                }
+              }
+            ],
+            "total": {
+              "estimated_income": 91383,
+              "budgeted_expenses": 91383
+            }
+          },
+          {
+            "name": "Administration and Operations",
+            "rows": [
+              {
+                "label": "Facilities Management",
+                "value": {
+                  "estimated_income": 1852445,
+                  "budgeted_expenses": 1852445
+                }
+              },
+              {
+                "label": "University Police",
+                "value": {
+                  "estimated_income": 73197,
+                  "budgeted_expenses": 73197
+                }
+              }
+            ],
+            "total": {
+              "estimated_income": 1925642,
+              "budgeted_expenses": 1925642
+            }
+          },
+          {
+            "name": "Development & Alumni Relations",
+            "rows": [
+              {
+                "label": "Alumni Center",
+                "value": {
+                  "estimated_income": 254125,
+                  "budgeted_expenses": 254125
+                }
+              }
+            ],
+            "total": {
+              "estimated_income": 254125,
+              "budgeted_expenses": 254125
+            }
+          },
+          {
+            "name": "School of Economic, Political and Policy Sciences",
+            "rows": [
+              {
+                "label": "Texas Schools Project",
+                "value": {
+                  "estimated_income": 13000,
+                  "budgeted_expenses": 13000
+                }
+              }
+            ],
+            "total": {
+              "estimated_income": 13000,
+              "budgeted_expenses": 13000
+            }
+          },
+          {
+            "name": "School of Engineering and Computer Science",
+            "rows": [
+              {
+                "label": "Engineering & Computer Science",
+                "value": {
+                  "estimated_income": 61566,
+                  "budgeted_expenses": 61566
+                }
+              },
+              {
+                "label": "Material Science Engineering",
+                "value": {
+                  "estimated_income": 112929,
+                  "budgeted_expenses": 120516
+                }
+              },
+              {
+                "label": "Mechanical Engineering",
+                "value": {
+                  "estimated_income": 35000,
+                  "budgeted_expenses": 35000
+                }
+              }
+            ],
+            "total": {
+              "estimated_income": 209495,
+              "budgeted_expenses": 217082
+            }
+          },
+          {
+            "name": "Information Technology",
+            "rows": [
+              {
+                "label": "Digital Transformation",
+                "value": {
+                  "estimated_income": 109411,
+                  "budgeted_expenses": 109411
+                }
+              },
+              {
+                "label": "Enterprise Tech Innov & Servic",
+                "value": {
+                  "estimated_income": 750000,
+                  "budgeted_expenses": 750000
+                }
+              },
+              {
+                "label": "Tech Experience & Innovation",
+                "value": {
+                  "estimated_income": 29500,
+                  "budgeted_expenses": 29500
+                }
+              }
+            ],
+            "total": {
+              "estimated_income": 888911,
+              "budgeted_expenses": 888911
+            }
+          },
+          {
+            "name": "School of Natural Sciences and Mathematics",
+            "rows": [
+              {
+                "label": "Chemistry",
+                "value": {
+                  "estimated_income": 77000,
+                  "budgeted_expenses": 92055
+                }
+              },
+              {
+                "label": "Nanotech Institute",
+                "value": {
+                  "estimated_income": 22158,
+                  "budgeted_expenses": 22779
+                }
+              }
+            ],
+            "total": {
+              "estimated_income": 99158,
+              "budgeted_expenses": 114834
+            }
+          },
+          {
+            "name": "Research",
+            "rows": [
+              {
+                "label": "Research Operations & Labs",
+                "value": {
+                  "estimated_income": 1459492,
+                  "budgeted_expenses": 1459492
+                }
+              },
+              {
+                "label": "UTD BrainHealth MRI Center",
+                "value": {
+                  "estimated_income": 428000,
+                  "budgeted_expenses": 428000
+                }
+              }
+            ],
+            "total": {
+              "estimated_income": 1887492,
+              "budgeted_expenses": 1887492
+            }
+          },
+          {
+            "name": "University",
+            "rows": [
+              {
+                "label": "Finance - Central",
+                "value": {
+                  "estimated_income": 14247016,
+                  "budgeted_expenses": 14273504
+                }
+              }
+            ],
+            "total": {
+              "estimated_income": 14247016,
+              "budgeted_expenses": 14273504
+            }
+          }
+        ],
+        "total": {
+          "estimated_income": 19616222,
+          "budgeted_expenses": 19665973
+        }
+      },
+      "designated_funds": {
+        "name": "Designated Funds",
+        "rows": [
+          {
+            "name": "Academic Affairs & Provost",
+            "rows": [
+              {
+                "label": "Academic Affairs and Provost",
+                "value": {
+                  "estimated_income": 119972,
+                  "budgeted_expenses": 8397544
+                }
+              },
+              {
+                "label": "Academic Bridge Program",
+                "value": {
+                  "estimated_income": 635,
+                  "budgeted_expenses": 852740
+                }
+              },
+              {
+                "label": "Ackerman Center",
+                "value": {
+                  "estimated_income": 17756,
+                  "budgeted_expenses": 17756
+                }
+              },
+              {
+                "label": "Archer Center",
+                "value": {
+                  "estimated_income": 1626400,
+                  "budgeted_expenses": 1885410
+                }
+              },
+              {
+                "label": "Callier Center Communication",
+                "value": {
+                  "estimated_income": 103325,
+                  "budgeted_expenses": 836044
+                }
+              },
+              {
+                "label": "Center for Asian Studies",
+                "value": {
+                  "estimated_income": 95000,
+                  "budgeted_expenses": 199596
+                }
+              },
+              {
+                "label": "Chess",
+                "value": {
+                  "estimated_income": 37000,
+                  "budgeted_expenses": 642024
+                }
+              },
+              {
+                "label": "Crow Museum of Asian Art",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 4941709
+                }
+              },
+              {
+                "label": "Debate",
+                "value": {
+                  "estimated_income": 350000,
+                  "budgeted_expenses": 674430
+                }
+              },
+              {
+                "label": "EOD Institute for Art History",
+                "value": {
+                  "estimated_income": 642524,
+                  "budgeted_expenses": 1128851
+                }
+              },
+              {
+                "label": "Educational Technology Service",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 3930192
+                }
+              },
+              {
+                "label": "Enr Mgmt Central Funded",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 155000
+                }
+              },
+              {
+                "label": "Enrollment Operations",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 14102558
+                }
+              },
+              {
+                "label": "Financial Aid",
+                "value": {
+                  "estimated_income": 6426998,
+                  "budgeted_expenses": 48092456
+                }
+              },
+              {
+                "label": "Graduate Education",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 1209936
+                }
+              },
+              {
+                "label": "Holocaust Studies",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 5708
+                }
+              },
+              {
+                "label": "Honors College",
+                "value": {
+                  "estimated_income": 504639,
+                  "budgeted_expenses": 3375482
+                }
+              },
+              {
+                "label": "International Center",
+                "value": {
+                  "estimated_income": 2871420,
+                  "budgeted_expenses": 5312571
+                }
+              },
+              {
+                "label": "McDermott Student Programs",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 15458
+                }
+              },
+              {
+                "label": "Medical Devices",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 14542
+                }
+              },
+              {
+                "label": "National Merit Central Funded",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 6627000
+                }
+              },
+              {
+                "label": "Office of the Registrar",
+                "value": {
+                  "estimated_income": 4900,
+                  "budgeted_expenses": 4900
+                }
+              },
+              {
+                "label": "Teaching Center",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 471557
+                }
+              },
+              {
+                "label": "Translation Center",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 187017
+                }
+              },
+              {
+                "label": "Undergraduate Education",
+                "value": {
+                  "estimated_income": 131425,
+                  "budgeted_expenses": 6331378
+                }
+              },
+              {
+                "label": "University Library",
+                "value": {
+                  "estimated_income": 32220,
+                  "budgeted_expenses": 10355388
+                }
+              },
+              {
+                "label": "Vital Longevity",
+                "value": {
+                  "estimated_income": 74921,
+                  "budgeted_expenses": 277792
+                }
+              }
+            ],
+            "total": {
+              "estimated_income": 13039135,
+              "budgeted_expenses": 120045039
+            }
+          },
+          {
+            "name": "Administration and Operations",
+            "rows": [
+              {
+                "label": "Administration and Operations",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 1396522
+                }
+              },
+              {
+                "label": "Athletics",
+                "value": {
+                  "estimated_income": 487825,
+                  "budgeted_expenses": 2316893
+                }
+              },
+              {
+                "label": "Athletics Scholarships",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 3508744
+                }
+              },
+              {
+                "label": "COS Centrally Funded",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 384450
+                }
+              },
+              {
+                "label": "Facilities Central",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 21921347
+                }
+              },
+              {
+                "label": "Facilities Management",
+                "value": {
+                  "estimated_income": 4000,
+                  "budgeted_expenses": 354287
+                }
+              },
+              {
+                "label": "Human Resources",
+                "value": {
+                  "estimated_income": 50000,
+                  "budgeted_expenses": 1029279
+                }
+              },
+              {
+                "label": "Information Security",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 1669220
+                }
+              },
+              {
+                "label": "Institutional Compliance",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 1210949
+                }
+              },
+              {
+                "label": "Institutional Risk & Safety",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 386448
+                }
+              },
+              {
+                "label": "Inventory And Surplus Control",
+                "value": {
+                  "estimated_income": 125000,
+                  "budgeted_expenses": 125000
+                }
+              },
+              {
+                "label": "Office of Legal Affairs",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 671120
+                }
+              },
+              {
+                "label": "University Police",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 58711
+                }
+              },
+              {
+                "label": "VP Facilities and Econ Dev",
+                "value": {
+                  "estimated_income": 45000,
+                  "budgeted_expenses": 45000
+                }
+              }
+            ],
+            "total": {
+              "estimated_income": 711825,
+              "budgeted_expenses": 35077970
+            }
+          },
+          {
+            "name": "School of Arts, Humanities, and Technology",
+            "rows": [
+              {
+                "label": "Art and Performance",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 122366
+                }
+              },
+              {
+                "label": "Arts Humanities & Technology",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 10179065
+                }
+              },
+              {
+                "label": "Centers For Values",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 5000
+                }
+              }
+            ],
+            "total": {
+              "estimated_income": 0,
+              "budgeted_expenses": 10306431
+            }
+          },
+          {
+            "name": "School of Behavioral and Brain Sciences",
+            "rows": [
+              {
+                "label": "Behavioral And Brain Sciences",
+                "value": {
+                  "estimated_income": 71018,
+                  "budgeted_expenses": 6816070
+                }
+              },
+              {
+                "label": "Neuroscience",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 2296765
+                }
+              },
+              {
+                "label": "Psychology",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 1293206
+                }
+              },
+              {
+                "label": "Speech Language Hearing",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 1179923
+                }
+              }
+            ],
+            "total": {
+              "estimated_income": 71018,
+              "budgeted_expenses": 11585964
+            }
+          },
+          {
+            "name": "Budget and Finance",
+            "rows": [
+              {
+                "label": "Accounting & Financial Rept",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 55000
+                }
+              },
+              {
+                "label": "Budget",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 285296
+                }
+              },
+              {
+                "label": "Bursar Office",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 2060528
+                }
+              },
+              {
+                "label": "Central Business Office",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 213002
+                }
+              },
+              {
+                "label": "Financial Mgmt Services",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 965317
+                }
+              },
+              {
+                "label": "OBF Centrally Funded",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 812512
+                }
+              },
+              {
+                "label": "OBF Integrated Technology Serv",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 1087745
+                }
+              },
+              {
+                "label": "Payroll",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 91293
+                }
+              },
+              {
+                "label": "Procurement Management",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 742337
+                }
+              },
+              {
+                "label": "VP Budget & Finance",
+                "value": {
+                  "estimated_income": 700000,
+                  "budgeted_expenses": 1823718
+                }
+              }
+            ],
+            "total": {
+              "estimated_income": 700000,
+              "budgeted_expenses": 8136748
+            }
+          },
+          {
+            "name": "Communications",
+            "rows": [
+              {
+                "label": "Communications and Marketing",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 605145
+                }
+              },
+              {
+                "label": "Editorial Services",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 2000
+                }
+              },
+              {
+                "label": "Executive Communications",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 179627
+                }
+              },
+              {
+                "label": "Marketing",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 3717795
+                }
+              },
+              {
+                "label": "Media Relations",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 272971
+                }
+              },
+              {
+                "label": "Web Services",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 1394511
+                }
+              }
+            ],
+            "total": {
+              "estimated_income": 0,
+              "budgeted_expenses": 6172049
+            }
+          },
+          {
+            "name": "Development & Alumni Relations",
+            "rows": [
+              {
+                "label": "Alumni Center",
+                "value": {
+                  "estimated_income": 206977,
+                  "budgeted_expenses": 354417
+                }
+              },
+              {
+                "label": "Alumni Relations",
+                "value": {
+                  "estimated_income": 80850,
+                  "budgeted_expenses": 1033278
+                }
+              },
+              {
+                "label": "Development & Alumni Relations",
+                "value": {
+                  "estimated_income": 5648142,
+                  "budgeted_expenses": 327079
+                }
+              },
+              {
+                "label": "Development - Communications",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 472182
+                }
+              },
+              {
+                "label": "Development - Fundraising",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 2810723
+                }
+              },
+              {
+                "label": "Development Campus Enhancement",
+                "value": {
+                  "estimated_income": 1247,
+                  "budgeted_expenses": 1247
+                }
+              },
+              {
+                "label": "Development Management",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 1196188
+                }
+              },
+              {
+                "label": "University Events",
+                "value": {
+                  "estimated_income": 60000,
+                  "budgeted_expenses": 1258194
+                }
+              },
+              {
+                "label": "VP Office Operations",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 1042075
+                }
+              }
+            ],
+            "total": {
+              "estimated_income": 5997216,
+              "budgeted_expenses": 8495383
+            }
+          },
+          {
+            "name": "School of Economic, Political and Policy Sciences",
+            "rows": [
+              {
+                "label": "Economic Political and Policy",
+                "value": {
+                  "estimated_income": 12030,
+                  "budgeted_expenses": 7373788
+                }
+              },
+              {
+                "label": "Economics",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 1164
+                }
+              },
+              {
+                "label": "Geography & Geospatial Science",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 36900
+                }
+              },
+              {
+                "label": "IPE-PPPE",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 2759
+                }
+              },
+              {
+                "label": "Institute for Urban Policy",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 2624
+                }
+              },
+              {
+                "label": "Political Science",
+                "value": {
+                  "estimated_income": 115000,
+                  "budgeted_expenses": 171408
+                }
+              },
+              {
+                "label": "Public & Nonprofit Management",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 2160
+                }
+              },
+              {
+                "label": "Sociology",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 192
+                }
+              },
+              {
+                "label": "Texas Schools Project",
+                "value": {
+                  "estimated_income": 400000,
+                  "budgeted_expenses": 463958
+                }
+              }
+            ],
+            "total": {
+              "estimated_income": 527030,
+              "budgeted_expenses": 8054953
+            }
+          },
+          {
+            "name": "School of Engineering and Computer Science",
+            "rows": [
+              {
+                "label": "Analog Center",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 657373
+                }
+              },
+              {
+                "label": "Bioengineering",
+                "value": {
+                  "estimated_income": 122838,
+                  "budgeted_expenses": 1773294
+                }
+              },
+              {
+                "label": "Computer Science",
+                "value": {
+                  "estimated_income": 1025000,
+                  "budgeted_expenses": 6120638
+                }
+              },
+              {
+                "label": "ECS Student Services",
+                "value": {
+                  "estimated_income": 1008,
+                  "budgeted_expenses": 3207223
+                }
+              },
+              {
+                "label": "Electrical & Computer Engr",
+                "value": {
+                  "estimated_income": 214843,
+                  "budgeted_expenses": 9987895
+                }
+              },
+              {
+                "label": "Engineering & Computer Science",
+                "value": {
+                  "estimated_income": 1751531,
+                  "budgeted_expenses": 12184406
+                }
+              },
+              {
+                "label": "Material Science Engineering",
+                "value": {
+                  "estimated_income": 82000,
+                  "budgeted_expenses": 1499939
+                }
+              },
+              {
+                "label": "Mechanical Engineering",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 2466694
+                }
+              },
+              {
+                "label": "System Engineering",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 1566597
+                }
+              }
+            ],
+            "total": {
+              "estimated_income": 3197220,
+              "budgeted_expenses": 39464059
+            }
+          },
+          {
+            "name": "Govt & Community Relations",
+            "rows": [
+              {
+                "label": "Off of Govt & Commu Relations",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 966794
+                }
+              }
+            ],
+            "total": {
+              "estimated_income": 0,
+              "budgeted_expenses": 966794
+            }
+          },
+          {
+            "name": "Information Technology",
+            "rows": [
+              {
+                "label": "Cyber Infrastructure & Researc",
+                "value": {
+                  "estimated_income": 209327,
+                  "budgeted_expenses": 412654
+                }
+              },
+              {
+                "label": "Data Management",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 2670377
+                }
+              },
+              {
+                "label": "Digital Transformation",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 5457836
+                }
+              },
+              {
+                "label": "Enterprise Tech Innov & Servic",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 5296304
+                }
+              },
+              {
+                "label": "IT Business Ops and Svcs",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 1702505
+                }
+              },
+              {
+                "label": "OIT Centrally Funded",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 4455536
+                }
+              },
+              {
+                "label": "Office of the CTO",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 2936737
+                }
+              },
+              {
+                "label": "Office of the VP IT/CIO",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 1200155
+                }
+              },
+              {
+                "label": "Tech Experience & Innovation",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 2234529
+                }
+              }
+            ],
+            "total": {
+              "estimated_income": 209327,
+              "budgeted_expenses": 26366633
+            }
+          },
+          {
+            "name": "School of Interdisciplinary Studies",
+            "rows": [
+              {
+                "label": "Interdisciplinary Studies",
+                "value": {
+                  "estimated_income": 86000,
+                  "budgeted_expenses": 1216655
+                }
+              }
+            ],
+            "total": {
+              "estimated_income": 86000,
+              "budgeted_expenses": 1216655
+            }
+          },
+          {
+            "name": "School of Natural Sciences and Mathematics",
+            "rows": [
+              {
+                "label": "Biological Sciences",
+                "value": {
+                  "estimated_income": 290285,
+                  "budgeted_expenses": 937743
+                }
+              },
+              {
+                "label": "Chemistry",
+                "value": {
+                  "estimated_income": 94325,
+                  "budgeted_expenses": 383189
+                }
+              },
+              {
+                "label": "Mathematical Sciences",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 32658
+                }
+              },
+              {
+                "label": "NS&M Deans Office",
+                "value": {
+                  "estimated_income": 350000,
+                  "budgeted_expenses": 13966416
+                }
+              },
+              {
+                "label": "Nanotech Institute",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 1701
+                }
+              },
+              {
+                "label": "Natural Sciences and Math",
+                "value": {
+                  "estimated_income": 134734,
+                  "budgeted_expenses": 134734
+                }
+              },
+              {
+                "label": "Physics",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 270240
+                }
+              },
+              {
+                "label": "Science/Math Education",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 88618
+                }
+              },
+              {
+                "label": "Space Sciences",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 471478
+                }
+              },
+              {
+                "label": "Sustain Earth Systems Science",
+                "value": {
+                  "estimated_income": 222575,
+                  "budgeted_expenses": 511095
+                }
+              }
+            ],
+            "total": {
+              "estimated_income": 1091919,
+              "budgeted_expenses": 16797872
+            }
+          },
+          {
+            "name": "President",
+            "rows": [
+              {
+                "label": "Industry Engagement and Innova",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 438867
+                }
+              },
+              {
+                "label": "Office of the President",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 496921
+                }
+              }
+            ],
+            "total": {
+              "estimated_income": 0,
+              "budgeted_expenses": 935788
+            }
+          },
+          {
+            "name": "Research",
+            "rows": [
+              {
+                "label": "CBH BPI",
+                "value": {
+                  "estimated_income": 198464,
+                  "budgeted_expenses": 198464
+                }
+              },
+              {
+                "label": "CBH Chapman",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 36464
+                }
+              },
+              {
+                "label": "CBH Filbey",
+                "value": {
+                  "estimated_income": 31472,
+                  "budgeted_expenses": 44109
+                }
+              },
+              {
+                "label": "CBH Krawcyzk",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 124
+                }
+              },
+              {
+                "label": "CBH Rypma",
+                "value": {
+                  "estimated_income": 31965,
+                  "budgeted_expenses": 33661
+                }
+              },
+              {
+                "label": "Center for Brain Health",
+                "value": {
+                  "estimated_income": 142892,
+                  "budgeted_expenses": 3331301
+                }
+              },
+              {
+                "label": "High Performance Computing Ctr",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 74408
+                }
+              },
+              {
+                "label": "Information Systems",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 80000
+                }
+              },
+              {
+                "label": "Innovation & Commercialization",
+                "value": {
+                  "estimated_income": 6417600,
+                  "budgeted_expenses": 6745201
+                }
+              },
+              {
+                "label": "Research Integrity",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 130714
+                }
+              },
+              {
+                "label": "Research Operations & Labs",
+                "value": {
+                  "estimated_income": 555000,
+                  "budgeted_expenses": 1905000
+                }
+              },
+              {
+                "label": "Sponsored Programs Administrat",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 60000
+                }
+              },
+              {
+                "label": "UTD BrainHealth MRI Center",
+                "value": {
+                  "estimated_income": 50490,
+                  "budgeted_expenses": 50490
+                }
+              },
+              {
+                "label": "VP for Research and Innovation",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 7004871
+                }
+              }
+            ],
+            "total": {
+              "estimated_income": 7427883,
+              "budgeted_expenses": 19694807
+            }
+          },
+          {
+            "name": "School of Management",
+            "rows": [
+              {
+                "label": "Accounting & Business Law Rese",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 167580
+                }
+              },
+              {
+                "label": "Bass Conference",
+                "value": {
+                  "estimated_income": 50000,
+                  "budgeted_expenses": 50000
+                }
+              },
+              {
+                "label": "Cohort MBA",
+                "value": {
+                  "estimated_income": 40000,
+                  "budgeted_expenses": 40000
+                }
+              },
+              {
+                "label": "Ctr Decision & Risk Analysis",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 69628
+                }
+              },
+              {
+                "label": "Ctr Excellence In Corp Govern",
+                "value": {
+                  "estimated_income": 155000,
+                  "budgeted_expenses": 155000
+                }
+              },
+              {
+                "label": "Ctr Innov & Entrepreneurship",
+                "value": {
+                  "estimated_income": 4427,
+                  "budgeted_expenses": 237896
+                }
+              },
+              {
+                "label": "Ctr Intelligent Supply Network",
+                "value": {
+                  "estimated_income": 200000,
+                  "budgeted_expenses": 200000
+                }
+              },
+              {
+                "label": "Executive Education",
+                "value": {
+                  "estimated_income": 7763941,
+                  "budgeted_expenses": 7695691
+                }
+              },
+              {
+                "label": "Finance&MgrlEcon Research",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 192375
+                }
+              },
+              {
+                "label": "Healthcare Mgmt Research",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 2565
+                }
+              },
+              {
+                "label": "Information Systems",
+                "value": {
+                  "estimated_income": 35000,
+                  "budgeted_expenses": 225665
+                }
+              },
+              {
+                "label": "International Studies Program",
+                "value": {
+                  "estimated_income": 300000,
+                  "budgeted_expenses": 300000
+                }
+              },
+              {
+                "label": "Management",
+                "value": {
+                  "estimated_income": 13372800,
+                  "budgeted_expenses": 72474135
+                }
+              },
+              {
+                "label": "Marketing Research",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 121125
+                }
+              },
+              {
+                "label": "Operations Management",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 156462
+                }
+              },
+              {
+                "label": "Org, Strgy & Intnl Mgt Researc",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 145065
+                }
+              },
+              {
+                "label": "Other Research",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 30000
+                }
+              }
+            ],
+            "total": {
+              "estimated_income": 21921168,
+              "budgeted_expenses": 82263187
+            }
+          },
+          {
+            "name": "Strategic Initiatives",
+            "rows": [
+              {
+                "label": "Audit and Advisory Services",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 48865
+                }
+              },
+              {
+                "label": "Inst Success & Decision Suppor",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 158459
+                }
+              },
+              {
+                "label": "VP Strategic Initiatives",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 1254294
+                }
+              }
+            ],
+            "total": {
+              "estimated_income": 0,
+              "budgeted_expenses": 1461618
+            }
+          },
+          {
+            "name": "Student Affairs",
+            "rows": [
+              {
+                "label": "Basic Needs Resource Center",
+                "value": {
+                  "estimated_income": 2836,
+                  "budgeted_expenses": 2836
+                }
+              },
+              {
+                "label": "Career Center",
+                "value": {
+                  "estimated_income": 153500,
+                  "budgeted_expenses": 242271
+                }
+              },
+              {
+                "label": "Comet Card Office",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 498497
+                }
+              },
+              {
+                "label": "Intercultural Programs",
+                "value": {
+                  "estimated_income": 125000,
+                  "budgeted_expenses": 125000
+                }
+              },
+              {
+                "label": "Student Affairs",
+                "value": {
+                  "estimated_income": 285058,
+                  "budgeted_expenses": 1894917
+                }
+              },
+              {
+                "label": "Student Employment",
+                "value": {
+                  "estimated_income": 71624,
+                  "budgeted_expenses": 71624
+                }
+              },
+              {
+                "label": "Student Involvement&Engagement",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 60000
+                }
+              },
+              {
+                "label": "Student Transition Programs",
+                "value": {
+                  "estimated_income": 709300,
+                  "budgeted_expenses": 709300
+                }
+              },
+              {
+                "label": "Student Union",
+                "value": {
+                  "estimated_income": 70000,
+                  "budgeted_expenses": 70000
+                }
+              },
+              {
+                "label": "University Recreation",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 4760
+                }
+              }
+            ],
+            "total": {
+              "estimated_income": 1417318,
+              "budgeted_expenses": 3679205
+            }
+          },
+          {
+            "name": "University",
+            "rows": [
+              {
+                "label": "AES T&F Off-Set",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 30360000
+                }
+              },
+              {
+                "label": "Bursar - Central",
+                "value": {
+                  "estimated_income": 1205000,
+                  "budgeted_expenses": 0
+                }
+              },
+              {
+                "label": "Central Startups",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 20253436
+                }
+              },
+              {
+                "label": "Debt Service",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 650000
+                }
+              },
+              {
+                "label": "National Merit T&F Off-Set",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 12380000
+                }
+              },
+              {
+                "label": "Non-Merit T&F Off-Set",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 660000
+                }
+              },
+              {
+                "label": "RA T&F Off-Set",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 74000
+                }
+              },
+              {
+                "label": "TA T&F Off-Set",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 16300000
+                }
+              },
+              {
+                "label": "Top 10% T&F Off-Set",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 1100000
+                }
+              },
+              {
+                "label": "Transfer T&F Off-Set",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 7200000
+                }
+              },
+              {
+                "label": "University Investments",
+                "value": {
+                  "estimated_income": 56300000,
+                  "budgeted_expenses": 0
+                }
+              },
+              {
+                "label": "University Payments",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 6886292
+                }
+              },
+              {
+                "label": "University Reserves",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 16112961
+                }
+              },
+              {
+                "label": "University Revenue",
+                "value": {
+                  "estimated_income": 444682615,
+                  "budgeted_expenses": 24047701
+                }
+              }
+            ],
+            "total": {
+              "estimated_income": 502187615,
+              "budgeted_expenses": 136024390
+            }
+          }
+        ],
+        "total": {
+          "estimated_income": 558584674,
+          "budgeted_expenses": 536745545
+        }
+      },
+      "budgeted_tuition_and_student_fees": {
+        "name": "Budgeted Tuition and Student Fees",
+        "rows": [
+          {
+            "name": "Tuition",
+            "rows": [
+              {
+                "label": "Tuition",
+                "value": 346243195
+              },
+              {
+                "label": "Tuition Differential",
+                "value": 5110143
+              },
+              {
+                "label": "Exemption",
+                "value": 7598074
+              }
+            ],
+            "total": 358951412
+          },
+          {
+            "name": "Laboratory & Supplemental Fees",
+            "rows": [
+              {
+                "label": "Laboratory Fees",
+                "value": 189500
+              },
+              {
+                "label": "Excessive Hours",
+                "value": 150000
+              },
+              {
+                "label": "Three Peat Fee",
+                "value": 800000
+              },
+              {
+                "label": "Supplemental Fees",
+                "value": 46800
+              }
+            ],
+            "total": 1186300
+          },
+          {
+            "name": "Mandatory Fees",
+            "rows": [
+              {
+                "label": "Advising Fee",
+                "value": 15889904
+              },
+              {
+                "label": "Athletic Program Fee",
+                "value": 2845355
+              },
+              {
+                "label": "Green Fee",
+                "value": 285058
+              },
+              {
+                "label": "Information Technology Fee",
+                "value": 31481286
+              },
+              {
+                "label": "Infrastructure Fee",
+                "value": 15362813
+              },
+              {
+                "label": "Library Acquisition Fee",
+                "value": 16353929
+              },
+              {
+                "label": "Medical Services Fee",
+                "value": 2871404
+              },
+              {
+                "label": "Recreation Fee",
+                "value": 4109698
+              },
+              {
+                "label": "Student Business Services Fee",
+                "value": 13390270
+              },
+              {
+                "label": "Student Services Fee",
+                "value": 13439405
+              },
+              {
+                "label": "Student Services Building Fee",
+                "value": 4492528
+              },
+              {
+                "label": "Student Union Fee",
+                "value": 5932075
+              },
+              {
+                "label": "Transportation Fee",
+                "value": 1125000
+              },
+              {
+                "label": "Exemption",
+                "value": 642835
+              }
+            ],
+            "total": 128221560
+          },
+          {
+            "name": "Program, Course Related & Other Fees",
+            "rows": [
+              {
+                "label": "Application Fee",
+                "value": 1900000
+              },
+              {
+                "label": "Bursar Fees, Late Fees",
+                "value": 800000
+              },
+              {
+                "label": "Chec Collin County",
+                "value": 0
+              },
+              {
+                "label": "CPT Fee Sharing",
+                "value": 60000
+              },
+              {
+                "label": "Credit Card Services Fee",
+                "value": 1205000
+              },
+              {
+                "label": "EIPP Fee - Indust Practice Pgm",
+                "value": 10000
+              },
+              {
+                "label": "Faculty Lead Student Fee",
+                "value": 400000
+              },
+              {
+                "label": "Ftrip Fee - Geosciences",
+                "value": 53074
+              },
+              {
+                "label": "Ftrip Fee - JSOM Study Abroad",
+                "value": 300000
+              },
+              {
+                "label": "General Studies Distance Education Fee",
+                "value": 60000
+              },
+              {
+                "label": "Global MBA Distance Fee",
+                "value": 1300000
+              },
+              {
+                "label": "International Education Fee",
+                "value": 317298
+              },
+              {
+                "label": "International Student Special Serv Fee",
+                "value": 1062420
+              },
+              {
+                "label": "International Travel Ins Fee",
+                "value": 65000
+              },
+              {
+                "label": "Library Fines/Lost Book Fund",
+                "value": 30000
+              },
+              {
+                "label": "NSM Course Fee",
+                "value": 350000
+              },
+              {
+                "label": "Online Services Fee",
+                "value": 50000
+              },
+              {
+                "label": "Physical Instruction Fee",
+                "value": 6000
+              },
+              {
+                "label": "Practice Training Fee",
+                "value": 750000
+              },
+              {
+                "label": "Record Late/Reinstatement Fee",
+                "value": 90000
+              },
+              {
+                "label": "Records Processing Fee",
+                "value": 183000
+              },
+              {
+                "label": "SA Fee - Application",
+                "value": 0
+              },
+              {
+                "label": "Student Teaching Fee",
+                "value": 20000
+              }
+            ],
+            "total": 9011792
+          }
+        ],
+        "total": 497371064
+      },
+      "auxiliary_expenses": {
+        "name": "Auxiliary Expenses",
+        "rows": [
+          {
+            "name": "University",
+            "rows": [],
+            "total": {
+              "estimated_income": 0,
+              "budgeted_expenses": 0,
+              "debt_service": 0,
+              "other": 0
+            }
+          },
+          {
+            "name": "Academic Affairs & Provost",
+            "rows": [
+              {
+                "label": "AccessAbility Resource Center",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 844503,
+                  "debt_service": 0,
+                  "other": 0
+                }
+              },
+              {
+                "label": "Callier Center Communication",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 9868,
+                  "debt_service": 0,
+                  "other": 0
+                }
+              },
+              {
+                "label": "Debate",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 154805,
+                  "debt_service": 0,
+                  "other": 0
+                }
+              },
+              {
+                "label": "Honors College",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 104008,
+                  "debt_service": 0,
+                  "other": 0
+                }
+              },
+              {
+                "label": "Undergraduate Education",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 207471,
+                  "debt_service": 0,
+                  "other": 0
+                }
+              },
+              {
+                "label": "University Library",
+                "value": {
+                  "estimated_income": 20000,
+                  "budgeted_expenses": 20000,
+                  "debt_service": 0,
+                  "other": 0
+                }
+              }
+            ],
+            "total": {
+              "estimated_income": 20000,
+              "budgeted_expenses": 1340655,
+              "debt_service": 0,
+              "other": 0
+            }
+          },
+          {
+            "name": "Administration and Operations",
+            "rows": [
+              {
+                "label": "Athletics",
+                "value": {
+                  "estimated_income": 145000,
+                  "budgeted_expenses": 3330833,
+                  "debt_service": 0,
+                  "other": 0
+                }
+              },
+              {
+                "label": "Auxiliary Revenue and Debt",
+                "value": {
+                  "estimated_income": 4317000,
+                  "budgeted_expenses": 307060,
+                  "debt_service": -1354641,
+                  "other": -1434190
+                }
+              },
+              {
+                "label": "Auxiliary Services",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 1086789,
+                  "debt_service": 0,
+                  "other": 0
+                }
+              },
+              {
+                "label": "Parking & Transportation Srvcs",
+                "value": {
+                  "estimated_income": 9071000,
+                  "budgeted_expenses": 3644992,
+                  "debt_service": -2778757,
+                  "other": -558036
+                }
+              }
+            ],
+            "total": {
+              "estimated_income": 13533000,
+              "budgeted_expenses": 8369674,
+              "debt_service": -4133398,
+              "other": -2280396
+            }
+          },
+          {
+            "name": "School of Arts, Humanities, and Technology",
+            "rows": [
+              {
+                "label": "Art and Performance",
+                "value": {
+                  "estimated_income": 100,
+                  "budgeted_expenses": 100,
+                  "debt_service": 0,
+                  "other": 0
+                }
+              },
+              {
+                "label": "Arts Humanities & Technology",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 56647,
+                  "debt_service": 0,
+                  "other": 0
+                }
+              }
+            ],
+            "total": {
+              "estimated_income": 100,
+              "budgeted_expenses": 56747,
+              "debt_service": 0,
+              "other": 0
+            }
+          },
+          {
+            "name": "Budget and Finance",
+            "rows": [
+              {
+                "label": "Accounting & Financial Rept",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 1450123,
+                  "debt_service": 0,
+                  "other": 0
+                }
+              },
+              {
+                "label": "Budget",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 725861,
+                  "debt_service": 0,
+                  "other": 0
+                }
+              },
+              {
+                "label": "Payroll",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 964153,
+                  "debt_service": 0,
+                  "other": 0
+                }
+              },
+              {
+                "label": "Procurement Management",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 243837,
+                  "debt_service": 0,
+                  "other": 0
+                }
+              },
+              {
+                "label": "VP Budget & Finance",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 45000,
+                  "debt_service": 0,
+                  "other": 0
+                }
+              }
+            ],
+            "total": {
+              "estimated_income": 0,
+              "budgeted_expenses": 3428974,
+              "debt_service": 0,
+              "other": 0
+            }
+          },
+          {
+            "name": "Student Affairs",
+            "rows": [
+              {
+                "label": "Basic Needs Resource Center",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 611047,
+                  "debt_service": 0,
+                  "other": 0
+                }
+              },
+              {
+                "label": "Career Center",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 2482507,
+                  "debt_service": 0,
+                  "other": 0
+                }
+              },
+              {
+                "label": "Comet Card Office",
+                "value": {
+                  "estimated_income": 45000,
+                  "budgeted_expenses": 45000,
+                  "debt_service": 0,
+                  "other": 0
+                }
+              },
+              {
+                "label": "Community Standards & Conduct",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 421605,
+                  "debt_service": 0,
+                  "other": 0
+                }
+              },
+              {
+                "label": "Dean of Students",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 806233,
+                  "debt_service": 0,
+                  "other": 0
+                }
+              },
+              {
+                "label": "Fraternity & Sorority Life",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 467578,
+                  "debt_service": 0,
+                  "other": 0
+                }
+              },
+              {
+                "label": "Housing Operations",
+                "value": {
+                  "estimated_income": 49417798,
+                  "budgeted_expenses": 17921210,
+                  "debt_service": -16710923,
+                  "other": -6204036
+                }
+              },
+              {
+                "label": "Intercultural Programs",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 586464,
+                  "debt_service": 0,
+                  "other": 0
+                }
+              },
+              {
+                "label": "Military and Veteran Center",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 297201,
+                  "debt_service": 0,
+                  "other": 0
+                }
+              },
+              {
+                "label": "Residential Life",
+                "value": {
+                  "estimated_income": 1119680,
+                  "budgeted_expenses": 3620918,
+                  "debt_service": 0,
+                  "other": 3309343
+                }
+              },
+              {
+                "label": "SUAAB/Meteor Theatre",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 568582,
+                  "debt_service": 0,
+                  "other": 0
+                }
+              },
+              {
+                "label": "Student Affairs",
+                "value": {
+                  "estimated_income": 30845110,
+                  "budgeted_expenses": 3071515,
+                  "debt_service": -5642589,
+                  "other": -22152204
+                }
+              },
+              {
+                "label": "Student Affairs Marketing",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 287252,
+                  "debt_service": 0,
+                  "other": 0
+                }
+              },
+              {
+                "label": "Student Counseling Center",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 2971432,
+                  "debt_service": 0,
+                  "other": 0
+                }
+              },
+              {
+                "label": "Student Health Center",
+                "value": {
+                  "estimated_income": 400000,
+                  "budgeted_expenses": 2436557,
+                  "debt_service": 0,
+                  "other": 2036557
+                }
+              },
+              {
+                "label": "Student Involvement&Engagement",
+                "value": {
+                  "estimated_income": 15000,
+                  "budgeted_expenses": 1336303,
+                  "debt_service": 0,
+                  "other": 0
+                }
+              },
+              {
+                "label": "Student Media",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 578994,
+                  "debt_service": 0,
+                  "other": 0
+                }
+              },
+              {
+                "label": "Student Transition Programs",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 712292,
+                  "debt_service": 0,
+                  "other": 0
+                }
+              },
+              {
+                "label": "Student Union",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 2805922,
+                  "debt_service": 0,
+                  "other": -1242
+                }
+              },
+              {
+                "label": "Student Volunteerism",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 543424,
+                  "debt_service": 0,
+                  "other": 0
+                }
+              },
+              {
+                "label": "Student Wellness Center",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 458239,
+                  "debt_service": 0,
+                  "other": 0
+                }
+              },
+              {
+                "label": "University Recreation",
+                "value": {
+                  "estimated_income": 100000,
+                  "budgeted_expenses": 2630206,
+                  "debt_service": 0,
+                  "other": 0
+                }
+              }
+            ],
+            "total": {
+              "estimated_income": 81942588,
+              "budgeted_expenses": 45660481,
+              "debt_service": -22353512,
+              "other": -4561301
+            }
+          },
+          {
+            "name": "University",
+            "rows": [
+              {
+                "label": "University Reserves",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 59602,
+                  "debt_service": 0,
+                  "other": 0
+                }
+              },
+              {
+                "label": "University Revenue",
+                "value": {
+                  "estimated_income": 3488190,
+                  "budgeted_expenses": 642835,
+                  "debt_service": 0,
+                  "other": -2584973
+                }
+              }
+            ],
+            "total": {
+              "estimated_income": 3488190,
+              "budgeted_expenses": 702437,
+              "debt_service": 0,
+              "other": -2525371
+            }
+          }
+        ],
+        "total": {
+          "estimated_income": 98983878,
+          "budgeted_expenses": 59558968,
+          "debt_service": -26486910,
+          "other": 0
+        }
+      },
+      "restricted_funds": {
+        "name": "Restricted Funds",
+        "rows": [
+          {
+            "name": "Academic Affairs & Provost",
+            "rows": [
+              {
+                "label": "Academic Affairs and Provost",
+                "value": {
+                  "estimated_income": 1086086,
+                  "budgeted_expenses": 1101586
+                }
+              },
+              {
+                "label": "Academic Bridge Program",
+                "value": {
+                  "estimated_income": 33065,
+                  "budgeted_expenses": 33065
+                }
+              },
+              {
+                "label": "Ackerman Center",
+                "value": {
+                  "estimated_income": 443305,
+                  "budgeted_expenses": 443305
+                }
+              },
+              {
+                "label": "Archer Center",
+                "value": {
+                  "estimated_income": 104814,
+                  "budgeted_expenses": 104814
+                }
+              },
+              {
+                "label": "Callier Center Communication",
+                "value": {
+                  "estimated_income": 1912317,
+                  "budgeted_expenses": 1827073
+                }
+              },
+              {
+                "label": "Center for Asian Studies",
+                "value": {
+                  "estimated_income": 4808,
+                  "budgeted_expenses": 4808
+                }
+              },
+              {
+                "label": "Chess",
+                "value": {
+                  "estimated_income": 4159,
+                  "budgeted_expenses": 4159
+                }
+              },
+              {
+                "label": "Crow Museum of Asian Art",
+                "value": {
+                  "estimated_income": 1398506,
+                  "budgeted_expenses": 0
+                }
+              },
+              {
+                "label": "EOD Institute for Art History",
+                "value": {
+                  "estimated_income": 1110567,
+                  "budgeted_expenses": 1240813
+                }
+              },
+              {
+                "label": "Enrollment Operations",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 5000
+                }
+              },
+              {
+                "label": "Financial Aid",
+                "value": {
+                  "estimated_income": 356838,
+                  "budgeted_expenses": 356838
+                }
+              },
+              {
+                "label": "Graduate Education",
+                "value": {
+                  "estimated_income": 25303,
+                  "budgeted_expenses": 57303
+                }
+              },
+              {
+                "label": "Holocaust Studies",
+                "value": {
+                  "estimated_income": 67018,
+                  "budgeted_expenses": 67018
+                }
+              },
+              {
+                "label": "Honors College",
+                "value": {
+                  "estimated_income": 923436,
+                  "budgeted_expenses": 923436
+                }
+              },
+              {
+                "label": "International Center",
+                "value": {
+                  "estimated_income": 851,
+                  "budgeted_expenses": 851
+                }
+              },
+              {
+                "label": "McDermott Student Programs",
+                "value": {
+                  "estimated_income": 4231497,
+                  "budgeted_expenses": 4231497
+                }
+              },
+              {
+                "label": "Medical Devices",
+                "value": {
+                  "estimated_income": 721121,
+                  "budgeted_expenses": 721121
+                }
+              },
+              {
+                "label": "Translation Center",
+                "value": {
+                  "estimated_income": 19642,
+                  "budgeted_expenses": 19642
+                }
+              },
+              {
+                "label": "Undergraduate Education",
+                "value": {
+                  "estimated_income": 389580,
+                  "budgeted_expenses": 389580
+                }
+              },
+              {
+                "label": "University Library",
+                "value": {
+                  "estimated_income": 172912,
+                  "budgeted_expenses": 172912
+                }
+              },
+              {
+                "label": "Vital Longevity",
+                "value": {
+                  "estimated_income": 229556,
+                  "budgeted_expenses": 234556
+                }
+              }
+            ],
+            "total": {
+              "estimated_income": 13235381,
+              "budgeted_expenses": 11939377
+            }
+          },
+          {
+            "name": "Administration and Operations",
+            "rows": [
+              {
+                "label": "Athletics",
+                "value": {
+                  "estimated_income": 2779,
+                  "budgeted_expenses": 12779
+                }
+              },
+              {
+                "label": "Athletics Scholarships",
+                "value": {
+                  "estimated_income": 4643,
+                  "budgeted_expenses": 4643
+                }
+              },
+              {
+                "label": "Human Resources",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 46000
+                }
+              },
+              {
+                "label": "VP Facilities and Econ Dev",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 25000
+                }
+              }
+            ],
+            "total": {
+              "estimated_income": 7422,
+              "budgeted_expenses": 88422
+            }
+          },
+          {
+            "name": "School of Arts, Humanities, and Technology",
+            "rows": [
+              {
+                "label": "Art and Performance",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 75000
+                }
+              },
+              {
+                "label": "Arts Humanities & Technology",
+                "value": {
+                  "estimated_income": 2070443,
+                  "budgeted_expenses": 2214818
+                }
+              }
+            ],
+            "total": {
+              "estimated_income": 2070443,
+              "budgeted_expenses": 2289818
+            }
+          },
+          {
+            "name": "School of Behavioral and Brain Sciences",
+            "rows": [
+              {
+                "label": "Behavioral And Brain Sciences",
+                "value": {
+                  "estimated_income": 336495,
+                  "budgeted_expenses": 546354
+                }
+              }
+            ],
+            "total": {
+              "estimated_income": 336495,
+              "budgeted_expenses": 546354
+            }
+          },
+          {
+            "name": "Budget and Finance",
+            "rows": [
+              {
+                "label": "Central Business Office",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 5000
+                }
+              },
+              {
+                "label": "OBF Centrally Funded",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 730765
+                }
+              }
+            ],
+            "total": {
+              "estimated_income": 0,
+              "budgeted_expenses": 735765
+            }
+          },
+          {
+            "name": "Development & Alumni Relations",
+            "rows": [
+              {
+                "label": "Alumni Center",
+                "value": {
+                  "estimated_income": 105303,
+                  "budgeted_expenses": 105303
+                }
+              },
+              {
+                "label": "Alumni Relations",
+                "value": {
+                  "estimated_income": 6567,
+                  "budgeted_expenses": 131567
+                }
+              },
+              {
+                "label": "Development - Fundraising",
+                "value": {
+                  "estimated_income": 40223,
+                  "budgeted_expenses": 40223
+                }
+              },
+              {
+                "label": "Development Campus Enhancement",
+                "value": {
+                  "estimated_income": 32371,
+                  "budgeted_expenses": 32371
+                }
+              },
+              {
+                "label": "University Events",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 215000
+                }
+              }
+            ],
+            "total": {
+              "estimated_income": 184464,
+              "budgeted_expenses": 524464
+            }
+          },
+          {
+            "name": "School of Economic, Political and Policy Sciences",
+            "rows": [
+              {
+                "label": "Economic Political and Policy",
+                "value": {
+                  "estimated_income": 100670,
+                  "budgeted_expenses": 132670
+                }
+              },
+              {
+                "label": "Economics",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 25000
+                }
+              },
+              {
+                "label": "Geography & Geospatial Science",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 25000
+                }
+              }
+            ],
+            "total": {
+              "estimated_income": 100670,
+              "budgeted_expenses": 182670
+            }
+          },
+          {
+            "name": "School of Engineering and Computer Science",
+            "rows": [
+              {
+                "label": "Analog Center",
+                "value": {
+                  "estimated_income": 141755,
+                  "budgeted_expenses": 141755
+                }
+              },
+              {
+                "label": "Computer Science",
+                "value": {
+                  "estimated_income": 110848,
+                  "budgeted_expenses": 170848
+                }
+              },
+              {
+                "label": "ECS Student Services",
+                "value": {
+                  "estimated_income": 288368,
+                  "budgeted_expenses": 288368
+                }
+              },
+              {
+                "label": "Electrical & Computer Engr",
+                "value": {
+                  "estimated_income": 178258,
+                  "budgeted_expenses": 178258
+                }
+              },
+              {
+                "label": "Engineering & Computer Science",
+                "value": {
+                  "estimated_income": 1977057,
+                  "budgeted_expenses": 2042057
+                }
+              },
+              {
+                "label": "Material Science Engineering",
+                "value": {
+                  "estimated_income": 119198,
+                  "budgeted_expenses": 159198
+                }
+              },
+              {
+                "label": "Mechanical Engineering",
+                "value": {
+                  "estimated_income": 37001,
+                  "budgeted_expenses": 37001
+                }
+              }
+            ],
+            "total": {
+              "estimated_income": 2852485,
+              "budgeted_expenses": 3017485
+            }
+          },
+          {
+            "name": "Govt & Community Relations",
+            "rows": [
+              {
+                "label": "Off of Govt & Commu Relations",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 75000
+                }
+              }
+            ],
+            "total": {
+              "estimated_income": 0,
+              "budgeted_expenses": 75000
+            }
+          },
+          {
+            "name": "School of Interdisciplinary Studies",
+            "rows": [
+              {
+                "label": "Interdisciplinary Studies",
+                "value": {
+                  "estimated_income": 12482,
+                  "budgeted_expenses": 17482
+                }
+              }
+            ],
+            "total": {
+              "estimated_income": 12482,
+              "budgeted_expenses": 17482
+            }
+          },
+          {
+            "name": "School of Natural Sciences and Mathematics",
+            "rows": [
+              {
+                "label": "Biological Sciences",
+                "value": {
+                  "estimated_income": 317669,
+                  "budgeted_expenses": 317669
+                }
+              },
+              {
+                "label": "Chemistry",
+                "value": {
+                  "estimated_income": 212816,
+                  "budgeted_expenses": 212816
+                }
+              },
+              {
+                "label": "NS&M Deans Office",
+                "value": {
+                  "estimated_income": 338411,
+                  "budgeted_expenses": 338411
+                }
+              },
+              {
+                "label": "Nanotech Institute",
+                "value": {
+                  "estimated_income": 204435,
+                  "budgeted_expenses": 204435
+                }
+              },
+              {
+                "label": "Natural Sciences and Math",
+                "value": {
+                  "estimated_income": 643311,
+                  "budgeted_expenses": 643311
+                }
+              },
+              {
+                "label": "Physics",
+                "value": {
+                  "estimated_income": 20711,
+                  "budgeted_expenses": 20711
+                }
+              },
+              {
+                "label": "Science/Math Education",
+                "value": {
+                  "estimated_income": 75017,
+                  "budgeted_expenses": 75017
+                }
+              },
+              {
+                "label": "Sustain Earth Systems Science",
+                "value": {
+                  "estimated_income": 141081,
+                  "budgeted_expenses": 166081
+                }
+              }
+            ],
+            "total": {
+              "estimated_income": 1953451,
+              "budgeted_expenses": 1978451
+            }
+          },
+          {
+            "name": "President",
+            "rows": [
+              {
+                "label": "Office of the President",
+                "value": {
+                  "estimated_income": 689783,
+                  "budgeted_expenses": 1865395
+                }
+              }
+            ],
+            "total": {
+              "estimated_income": 689783,
+              "budgeted_expenses": 1865395
+            }
+          },
+          {
+            "name": "Research",
+            "rows": [
+              {
+                "label": "BrainHealth Project",
+                "value": {
+                  "estimated_income": 128136,
+                  "budgeted_expenses": 128136
+                }
+              },
+              {
+                "label": "CBH BPI",
+                "value": {
+                  "estimated_income": 75240,
+                  "budgeted_expenses": 139987
+                }
+              },
+              {
+                "label": "CBH Chapman",
+                "value": {
+                  "estimated_income": 19768,
+                  "budgeted_expenses": 19768
+                }
+              },
+              {
+                "label": "CBH Development and Marketing",
+                "value": {
+                  "estimated_income": 6258,
+                  "budgeted_expenses": 6258
+                }
+              },
+              {
+                "label": "CBH Krawcyzk",
+                "value": {
+                  "estimated_income": 32216,
+                  "budgeted_expenses": 32216
+                }
+              },
+              {
+                "label": "Center for Brain Health",
+                "value": {
+                  "estimated_income": 312136,
+                  "budgeted_expenses": 312136
+                }
+              },
+              {
+                "label": "Innovation & Commercialization",
+                "value": {
+                  "estimated_income": 1968,
+                  "budgeted_expenses": 1968
+                }
+              },
+              {
+                "label": "UTD BrainHealth MRI Center",
+                "value": {
+                  "estimated_income": 133112,
+                  "budgeted_expenses": 133112
+                }
+              },
+              {
+                "label": "VP for Research and Innovation",
+                "value": {
+                  "estimated_income": 2847,
+                  "budgeted_expenses": 2847
+                }
+              }
+            ],
+            "total": {
+              "estimated_income": 711681,
+              "budgeted_expenses": 776428
+            }
+          },
+          {
+            "name": "School of Management",
+            "rows": [
+              {
+                "label": "Cecil Ethics Chair",
+                "value": {
+                  "estimated_income": 70904,
+                  "budgeted_expenses": 70904
+                }
+              },
+              {
+                "label": "Ctr Innov & Entrepreneurship",
+                "value": {
+                  "estimated_income": 13759,
+                  "budgeted_expenses": 13759
+                }
+              },
+              {
+                "label": "Management",
+                "value": {
+                  "estimated_income": 3117902,
+                  "budgeted_expenses": 3317902
+                }
+              },
+              {
+                "label": "Morris Hite Center",
+                "value": {
+                  "estimated_income": 196266,
+                  "budgeted_expenses": 196266
+                }
+              },
+              {
+                "label": "Morris Hite Center",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 20000
+                }
+              }
+            ],
+            "total": {
+              "estimated_income": 3398831,
+              "budgeted_expenses": 3618831
+            }
+          },
+          {
+            "name": "Strategic Initiatives",
+            "rows": [
+              {
+                "label": "Staff Council",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 30000
+                }
+              }
+            ],
+            "total": {
+              "estimated_income": 0,
+              "budgeted_expenses": 30000
+            }
+          },
+          {
+            "name": "Student Affairs",
+            "rows": [
+              {
+                "label": "Basic Needs Resource Center",
+                "value": {
+                  "estimated_income": 18941,
+                  "budgeted_expenses": 18941
+                }
+              },
+              {
+                "label": "Dean of Students",
+                "value": {
+                  "estimated_income": 890,
+                  "budgeted_expenses": 890
+                }
+              },
+              {
+                "label": "Military and Veteran Center",
+                "value": {
+                  "estimated_income": 2217,
+                  "budgeted_expenses": 2217
+                }
+              },
+              {
+                "label": "Student Affairs",
+                "value": {
+                  "estimated_income": 1512,
+                  "budgeted_expenses": 1512
+                }
+              }
+            ],
+            "total": {
+              "estimated_income": 23560,
+              "budgeted_expenses": 23560
+            }
+          },
+          {
+            "name": "University",
+            "rows": [
+              {
+                "label": "University Payments",
+                "value": {
+                  "estimated_income": 0,
+                  "budgeted_expenses": 120000
+                }
+              },
+              {
+                "label": "University Revenue",
+                "value": {
+                  "estimated_income": 4833065,
+                  "budgeted_expenses": 0
+                }
+              }
+            ],
+            "total": {
+              "estimated_income": 4833065,
+              "budgeted_expenses": 120000
+            }
+          }
+        ],
+        "total": {
+          "estimated_income": 30410213,
+          "budgeted_expenses": 27829502
+        }
+      }
+    },
+    "annual_financial_report": null
+  }
+}

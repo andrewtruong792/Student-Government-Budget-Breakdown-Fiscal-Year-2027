@@ -1,0 +1,552 @@
+{
+  "status": 200,
+  "message": "success",
+  "data": {
+    "_id": "2023",
+    "operating_budget": {
+      "operating_revenues": {
+        "name": "Operating Revenues",
+        "rows": [
+          {
+            "label": "Tuition and Fees (Gross)",
+            "value": 512451723
+          },
+          {
+            "label": "Less Discounts and Allowances",
+            "value": -149352521
+          },
+          {
+            "label": "Federal Sponsored Programs",
+            "value": 62933618
+          },
+          {
+            "label": "State Sponsored Programs",
+            "value": 18699710
+          },
+          {
+            "label": "Local and Private Sponsored Programs",
+            "value": 14800543
+          },
+          {
+            "label": "Net Sales and Services of Educational Activities",
+            "value": 37198183
+          },
+          {
+            "label": "Net Auxiliary Enterprises",
+            "value": 51523512
+          },
+          {
+            "label": "Other Operating Revenues",
+            "value": 9212361
+          }
+        ],
+        "total": 557467129
+      },
+      "operating_expenses": {
+        "name": "Operating Expenses",
+        "rows": [
+          {
+            "label": "Instruction",
+            "value": 236273526
+          },
+          {
+            "label": "Academic Support",
+            "value": 88605749
+          },
+          {
+            "label": "Research",
+            "value": 126451556
+          },
+          {
+            "label": "Public Service",
+            "value": 10445746
+          },
+          {
+            "label": "Institutional Support",
+            "value": 52930871
+          },
+          {
+            "label": "Student Services",
+            "value": 22320742
+          },
+          {
+            "label": "Operation and Maintenance of Plant",
+            "value": 58523606
+          },
+          {
+            "label": "Scholarships and Fellowships",
+            "value": 51492846
+          },
+          {
+            "label": "Auxiliary Enterprises",
+            "value": 47642915
+          },
+          {
+            "label": "Depreciation and Amortization",
+            "value": 88201993
+          }
+        ],
+        "total": 782889550
+      },
+      "budgeted_nonoperating_revenues": {
+        "name": "Budgeted Nonoperating Revenues (Expenses)",
+        "rows": [
+          {
+            "label": "State Appropriations",
+            "value": 129486370
+          },
+          {
+            "label": "Federal Sponsored Programs - Nonoperating",
+            "value": 35952980
+          },
+          {
+            "label": "State/Local Sponsored Programs - Nonoperating",
+            "value": 11324826
+          },
+          {
+            "label": "Gifts in Support of Operations",
+            "value": 12773000
+          },
+          {
+            "label": "Net Investment Income",
+            "value": 45348138
+          }
+        ],
+        "total": 234885314
+      },
+      "salaries_doe_and_instructional_admin": {
+        "name": "Summary of Faculty Salaries, Departmental Operating Expenses, and Instructional Administration",
+        "rows": [
+          {
+            "label": "Provost and V.P. Academic Affairs",
+            "value": {
+              "total": 905745,
+              "faculty_salaries": 0,
+              "departmental_operating_expenses": 905745,
+              "instructional_administration": 0
+            }
+          },
+          {
+            "label": "School of Arts and Humanities",
+            "value": {
+              "total": 7311836,
+              "faculty_salaries": 6278200,
+              "departmental_operating_expenses": 1003584,
+              "instructional_administration": 30052
+            }
+          },
+          {
+            "label": "School of Natural Sciences and Mathematics",
+            "value": {
+              "total": 19101527,
+              "faculty_salaries": 16078069,
+              "departmental_operating_expenses": 742669,
+              "instructional_administration": 2280789
+            }
+          },
+          {
+            "label": "School of Economic, Political and Policy Sciences",
+            "value": {
+              "total": 7068683,
+              "faculty_salaries": 6911872,
+              "departmental_operating_expenses": 0,
+              "instructional_administration": 156811
+            }
+          },
+          {
+            "label": "School of Management",
+            "value": {
+              "total": 24583939,
+              "faculty_salaries": 18776479,
+              "departmental_operating_expenses": 0,
+              "instructional_administration": 5807460
+            }
+          },
+          {
+            "label": "School of Behavioral and Brain Sciences",
+            "value": {
+              "total": 9005558,
+              "faculty_salaries": 7206933,
+              "departmental_operating_expenses": 0,
+              "instructional_administration": 1798625
+            }
+          },
+          {
+            "label": "School of Interdisciplinary Studies",
+            "value": {
+              "total": 1274151,
+              "faculty_salaries": 751426,
+              "departmental_operating_expenses": 87445,
+              "instructional_administration": 435280
+            }
+          },
+          {
+            "label": "School of Engineering and Computer Science",
+            "value": {
+              "total": 25116636,
+              "faculty_salaries": 21210967,
+              "departmental_operating_expenses": 858084,
+              "instructional_administration": 3047585
+            }
+          },
+          {
+            "label": "School of Arts, Technology, and Emerging Communication",
+            "value": {
+              "total": 4001011,
+              "faculty_salaries": 3119296,
+              "departmental_operating_expenses": 0,
+              "instructional_administration": 881715
+            }
+          },
+          {
+            "label": "Other Instructional Support",
+            "value": {
+              "total": 12595651,
+              "faculty_salaries": 3221430,
+              "departmental_operating_expenses": 103100,
+              "instructional_administration": 9271121
+            }
+          }
+        ],
+        "total": {
+          "total": 110964737,
+          "faculty_salaries": 83554672,
+          "departmental_operating_expenses": 3700627,
+          "instructional_administration": 23709438
+        }
+      },
+      "service_departments_funds": null,
+      "designated_funds": null,
+      "budgeted_tuition_and_student_fees": {
+        "name": "Budgeted Tuition and Student Fees",
+        "rows": [
+          {
+            "name": "Tuition",
+            "rows": [
+              {
+                "label": "Tuition",
+                "value": 375713906
+              },
+              {
+                "label": "Tuition Differential",
+                "value": 6619837
+              },
+              {
+                "label": "Exemption",
+                "value": 5831197
+              }
+            ],
+            "total": 388164940
+          },
+          {
+            "name": "Laboratory & Supplemental Fees",
+            "rows": [
+              {
+                "label": "Laboratory Fees",
+                "value": 586580
+              },
+              {
+                "label": "Excessive Hours",
+                "value": 438000
+              },
+              {
+                "label": "Three Peat Fee",
+                "value": 1246000
+              },
+              {
+                "label": "Supplementary Fees",
+                "value": 24700
+              }
+            ],
+            "total": 2295280
+          },
+          {
+            "name": "Mandatory Student Fees",
+            "rows": [
+              {
+                "label": "Advising Fee",
+                "value": 15059797
+              },
+              {
+                "label": "Athletic Program Fee",
+                "value": 2850503
+              },
+              {
+                "label": "Information Technology Fee",
+                "value": 26997584
+              },
+              {
+                "label": "Infrastructure Fee",
+                "value": 13640756
+              },
+              {
+                "label": "Library Acquisition Fee",
+                "value": 9933998
+              },
+              {
+                "label": "Medical Service Fee",
+                "value": 2668437
+              },
+              {
+                "label": "Recreation Fee",
+                "value": 4117377
+              },
+              {
+                "label": "Student Business Services Fee",
+                "value": 13401749
+              },
+              {
+                "label": "Student Services Fee",
+                "value": 12849595
+              },
+              {
+                "label": "Student Services Building Fee",
+                "value": 4497752
+              },
+              {
+                "label": "Student Union Fee",
+                "value": 3800509
+              },
+              {
+                "label": "Transportation Fee",
+                "value": 1143148
+              },
+              {
+                "label": "Exemption",
+                "value": 2236050
+              }
+            ],
+            "total": 113197255
+          },
+          {
+            "name": "Program, Course Related & Other Incidental Fees",
+            "rows": [
+              {
+                "label": "Application Fee",
+                "value": 2997072
+              },
+              {
+                "label": "Bursar Fees, Late Fees",
+                "value": 523000
+              },
+              {
+                "label": "Chec Collin County",
+                "value": 80000
+              },
+              {
+                "label": "Credit Card Services Fee",
+                "value": 928000
+              },
+              {
+                "label": "EIPP Fee - Indust Practice Pgm",
+                "value": 10000
+              },
+              {
+                "label": "Ftrip Fee - Geosciences",
+                "value": 28074
+              },
+              {
+                "label": "Ftrip Fee - JSOM Study Abroad",
+                "value": 300000
+              },
+              {
+                "label": "General Studies Distance Education Fee",
+                "value": 60000
+              },
+              {
+                "label": "Global MBA Distance Fee",
+                "value": 1300000
+              },
+              {
+                "label": "International Education Fee",
+                "value": 298777
+              },
+              {
+                "label": "International Student Orientation Fee",
+                "value": 125000
+              },
+              {
+                "label": "International Student Special Serv Fee",
+                "value": 1400000
+              },
+              {
+                "label": "International Travel Ins Fee",
+                "value": 66000
+              },
+              {
+                "label": "Library Fines/Lost Book Fund",
+                "value": 18000
+              },
+              {
+                "label": "Physical Instruction Fee",
+                "value": 6000
+              },
+              {
+                "label": "Practice Training Fee",
+                "value": 560000
+              },
+              {
+                "label": "Record Late/Reinstatement Fee",
+                "value": 60000
+              },
+              {
+                "label": "SA Fee - Application",
+                "value": 14325
+              },
+              {
+                "label": "Student Teaching Fee",
+                "value": 20000
+              }
+            ],
+            "total": 8794248
+          }
+        ],
+        "total": 512451723
+      },
+      "auxiliary_expenses": null,
+      "restricted_funds": null
+    },
+    "annual_financial_report": {
+      "operating_revenues": {
+        "name": "Operating Revenues",
+        "rows": [
+          {
+            "label": "Student Tuition and Fees",
+            "value": 567539164.25
+          },
+          {
+            "label": "Discounts and Allowances",
+            "value": -147182184
+          },
+          {
+            "label": "Federal Sponsored Programs",
+            "value": 66931092.94
+          },
+          {
+            "label": "Federal Sponsored Programs Pass-Through from State Agencies",
+            "value": 1599242.5
+          },
+          {
+            "label": "State Sponsored Programs Pass-Through from State Agencies",
+            "value": 18141246.23
+          },
+          {
+            "label": "Local Sponsored Programs",
+            "value": 108603.11
+          },
+          {
+            "label": "Private Sponsored Programs",
+            "value": 15368763.94
+          },
+          {
+            "label": "Sales and Services of Educational Activities",
+            "value": 40902432.27
+          },
+          {
+            "label": "Auxiliary Enterprises",
+            "value": 52120136.46
+          },
+          {
+            "label": "Other Operating Revenues",
+            "value": 10945394.85
+          }
+        ],
+        "total": 626473892.55
+      },
+      "operating_expenses": {
+        "name": "Operating Expenses",
+        "rows": [
+          {
+            "label": "Instruction",
+            "value": 220306312.14
+          },
+          {
+            "label": "Research",
+            "value": 114572375.22
+          },
+          {
+            "label": "Public Service",
+            "value": 13302583.91
+          },
+          {
+            "label": "Academic Support",
+            "value": 85544804.75
+          },
+          {
+            "label": "Student Services",
+            "value": 23109819.15
+          },
+          {
+            "label": "Institutional Support",
+            "value": 48320753.81
+          },
+          {
+            "label": "Operations and Maintenance of Plant",
+            "value": 58497186.52
+          },
+          {
+            "label": "Scholarships and Fellowships",
+            "value": 41180717.37
+          },
+          {
+            "label": "Auxiliary Enterprises",
+            "value": 52902891.19
+          },
+          {
+            "label": "Depreciation and Amortization",
+            "value": 98596648.35
+          }
+        ],
+        "total": 756334092.41
+      },
+      "nonoperating_revenues": {
+        "name": "Nonoperating Revenues (Expenses)",
+        "rows": [
+          {
+            "label": "State Appropriations",
+            "value": 138282303.56
+          },
+          {
+            "label": "Federal Nonexchange Sponsored Programs",
+            "value": 39396913.08
+          },
+          {
+            "label": "Federal Nonexchange Pass-Through",
+            "value": 772891.42
+          },
+          {
+            "label": "State Nonexchange Pass-Through",
+            "value": 11324825.34
+          },
+          {
+            "label": "Gift Contributions for Operations",
+            "value": 16406714.81
+          },
+          {
+            "label": "Investment Income",
+            "value": 49701229.79
+          },
+          {
+            "label": "Net Increase (Decrease) in Fair Value of Investments",
+            "value": -345756.3
+          },
+          {
+            "label": "Interest Expense on Capital Asset Financings",
+            "value": -556646.93
+          },
+          {
+            "label": "Gain (Loss) on Sale of Capital Assets",
+            "value": -119454.97
+          },
+          {
+            "label": "Other Nonoperating Revenues",
+            "value": 4263112.09
+          }
+        ],
+        "total": 259126131.89
+      },
+      "beginning_net_position": 2254923420.82,
+      "ending_net_position": 2480877762.13
+    }
+  }
+}
