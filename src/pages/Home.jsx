@@ -2,6 +2,7 @@
 import './Home.css'
 import bg from "../assets/campusBG.png";
 import logo from "../assets/squareSGlogo.png";
+import InfoCard from "../components/InfoCard";
 
 
 export default function Home() {
@@ -65,9 +66,23 @@ export default function Home() {
         <div className='divider-wrapper'><div className='divider'></div></div>
 
         <section className='boxes'>
-            <div className='square-outline'></div>
-            <div className='square-outline'></div>
-            <div className='square-outline'></div>
+            <InfoCard
+                variant='split'
+                title="example"
+                body='exemplary example line'
+                graphic={<img src={logo} style={{width:'320px', height:'320px'}} />}
+            />
+            <InfoCard
+                variant='stacked'
+                title="example"
+                body='exemplary example line'
+                graphic={<img src={logo} style={{width:'320px', height:'320px'}} />}
+            />
+            <InfoCard
+                variant='text'
+                title="example"
+                body='exemplary example line'   
+            />
         </section>
 
         </>
