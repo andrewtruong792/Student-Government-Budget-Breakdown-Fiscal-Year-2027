@@ -1,4 +1,5 @@
 import './InfoCard.css'
+import { useEffect, useRef } from 'react'
 
 export default function InfoCard({
 
@@ -16,8 +17,26 @@ export default function InfoCard({
     invert ? 'info-card--invert' : ''
   ].filter(Boolean).join(' ')
 
+  // visibility checker; trigger for slide in animation
+  const ref = useRef(null)
+
+  useEffect(() => {
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible')
+      }
+    })
+  }, { threshold: 0.1 }) // .5 => 50% visible triggers animation
+
+  if (ref.current) {observer.observe(ref.current)}
+  return () => observer.disconnect()
+  }, [])
+
   return (
-    <article className={classes}>
+    <article ref={ref} className={classes}>
 
       <div className="info-card__content">
         {title && <h3 className="info-card__title">{title}</h3>}
