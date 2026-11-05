@@ -3,7 +3,7 @@ import { useYear } from '../context/YearContext';
 
 export default function Revenue() {
     const { year, budget } = useYear();
-    const total = budget.operating_budget.operating_revenues.total;
+    const total = budget.operating_revenues.total;
 
     return (
         <>

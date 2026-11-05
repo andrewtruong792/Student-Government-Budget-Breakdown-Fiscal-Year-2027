@@ -1,22 +1,23 @@
 // YearContext.jsx
 import { createContext, useContext, useEffect, useState } from "react";
+import budgets from "../data/budget-all.json";
 
-const files = import.meta.glob("../data/[0-9][0-9][0-9][0-9].json", { eager: true, import: "default" });
+export const years = Object.keys(budgets)
+    .filter((y) => budgets[y].operating_budget)
+    .sort()
+    .reverse();
 
-const budgets = {};
-for (const [path, file] of Object.entries(files)) {
-    const year = path.match(/(\d{4})\.json$/)[1];
-    budgets[year] = file.data;
+export function getBudget(year) {
+    const { operating_budget, annual_financial_report } = budgets[year];
+    return { ...operating_budget, afr: annual_financial_report };
 }
-
-export const years = Object.keys(budgets).sort().reverse();
 
 const STORAGE_KEY = "selectedYear";
 
 function getSavedYear() {
     try {
         const saved = localStorage.getItem(STORAGE_KEY);
-        if (saved && budgets[saved]) return saved;
+        if (years.includes(saved)) return saved;
     } catch {}
     return years[0];
 }
@@ -33,7 +34,7 @@ export function YearProvider({ children }) {
     }, [year]);
 
     return (
-        <YearContext.Provider value={{ year, setYear, years, budget: budgets[year] }}>
+        <YearContext.Provider value={{ year, setYear, years, budget: getBudget(year), getBudget }}>
             {children}
         </YearContext.Provider>
     );
