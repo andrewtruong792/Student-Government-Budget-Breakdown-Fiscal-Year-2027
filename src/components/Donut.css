@@ -1,0 +1,48 @@
+.donut {
+    position: relative;
+    width: min(100%, 270px);
+    aspect-ratio: 1;
+    display: grid;
+    place-items: center;
+    margin: auto;
+}
+.donut::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    background: conic-gradient(var(--stops));
+    animation: donut-in 0.7s ease-out;
+}
+@keyframes donut-in {
+    from {
+        opacity: 0;
+        transform: rotate(-90deg) scale(0.9);
+    }
+}
+.donut__center {
+    position: relative;
+    width: 64%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    text-align: center;
+    padding: 12px;
+}
+.donut__center .eyebrow {
+    font-size: 10px;
+    color: var(--text-muted);
+}
+.donut__center strong {
+    font-family: var(--font-heading);
+    font-size: 28px;
+}
+.donut__center span:last-child:not(.eyebrow) {
+    font-size: 12px;
+    color: var(--text-muted);
+}

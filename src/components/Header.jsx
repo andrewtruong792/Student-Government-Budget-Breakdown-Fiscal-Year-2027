@@ -2,35 +2,24 @@
 import "./Header.css";
 import logo from "../assets/squareSGlogo.png";
 import YearSelector from "./YearSelector";
-
-const yearPages = ["/report-overview", "/revenue", "/expenses"];
+import { sections } from "../utils/budget";
 
 export default function Header() {
-    const showYear = yearPages.includes(window.location.pathname);
-
     return (
-        <header className="site-header" style={{ position: 'relative', zIndex: 10 }}>
-            <a href="/" className="header-logo">
+        <header className="site-header">
+            <a href="#top" className="header-logo">
                 <img src={logo} alt="Student Government Logo" />
-                
-                <p flow="vertical">UTD<br/>BUDGET</p>
+                <div>
+                    <strong>Budget Breakdown</strong>
+                    <span>Student Government · UT Dallas</span>
+                </div>
             </a>
             <nav className="header-nav">
-                {showYear && <YearSelector />}
-
-                <a href="/">Home</a>
-
-                <a href="/report-overview">Report Overview</a>
-
-                <a href="/revenue">Revenue</a>
-
-                <a href="/expenses">Expenses</a>
-
-                <a href="/budget-trends">Budget Trends</a>
-
-                <a href="/about-us">About Us</a>
-
+                {sections.map((s) => (
+                    <a key={s.id} href={`#${s.id}`}>{s.label}</a>
+                ))}
             </nav>
+            <YearSelector />
         </header>
     );
 }

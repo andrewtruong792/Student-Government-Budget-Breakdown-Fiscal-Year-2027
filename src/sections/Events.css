@@ -1,0 +1,18 @@
+.events-pill {
+    background: var(--white);
+}
+.events-empty {
+    border-style: dashed;
+    text-align: center;
+    padding: 64px 28px;
+}
+.events-empty h3 {
+    font-size: 20px;
+}
+.events-empty p {
+    max-width: 380px;
+    margin: 12px auto 0;
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--text-muted);
+}

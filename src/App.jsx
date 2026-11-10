@@ -1,32 +1,31 @@
 // App.jsx
-import Layout from "./components/Layout";
 import { YearProvider } from "./context/YearContext";
-import Home from "./pages/Home";
-import ReportOverview from "./pages/report-overview";
-import Revenue from "./pages/revenue";
-import Expenses from "./pages/expenses";
-import BudgetTrends from "./pages/budget-trends";
-import AboutUs from "./pages/about-us";
-
-const pages = {
-  "/": Home,
-  "/report-overview": ReportOverview,
-  "/revenue": Revenue,
-  "/expenses": Expenses,
-  "/budget-trends": BudgetTrends,
-  "/about-us": AboutUs,
-};
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Hero from "./sections/Hero";
+import About from "./sections/About";
+import Overview from "./sections/Overview";
+import Revenue from "./sections/Revenue";
+import Expenses from "./sections/Expenses";
+import StudentGovernment from "./sections/StudentGovernment";
+import Trends from "./sections/Trends";
+import Events from "./sections/Events";
 
 function App() {
-  const Page = pages[window.location.pathname] || Home;
-
   return (
     <YearProvider>
-      <Layout>
-        <main>
-          <Page />
-        </main>
-      </Layout>
+      <Header />
+      <main>
+        <Hero />
+        <About />
+        <Overview />
+        <Revenue />
+        <Expenses />
+        <StudentGovernment />
+        <Trends />
+        <Events />
+      </main>
+      <Footer />
     </YearProvider>
   );
 }
