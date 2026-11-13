@@ -5,7 +5,7 @@ import Section from "../components/Section";
 import Donut from "../components/Donut";
 import CountUp from "../components/CountUp";
 import { useYear } from "../context/YearContext";
-import { palette, percent, revenueSources, sum } from "../utils/budget";
+import { colorAt, percent, revenueSources, sum } from "../utils/budget";
 
 const filters = [
     { id: "all", label: "All sources" },
@@ -65,13 +65,13 @@ export default function Revenue() {
                                 onClick={() => setSelected(row.label)}
                             >
                                 <div className="revenue-row">
-                                    <span className="dot" style={{ background: palette[i % palette.length] }} />
+                                    <span className="dot" style={{ background: colorAt(i) }} />
                                     <span className="revenue-row__label">{row.label}</span>
                                     <strong><CountUp value={row.value} /></strong>
                                     <span className="revenue-row__pct">{percent(row.value, total)}</span>
                                 </div>
                                 <div className="track">
-                                    <span style={{ width: percent(row.value, rows[0].value), background: palette[i % palette.length] }} />
+                                    <span style={{ width: percent(row.value, total), background: colorAt(i) }} />
                                 </div>
                             </li>
                         ))}

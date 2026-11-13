@@ -2,7 +2,7 @@
 import "./StudentGovernment.css";
 import Section from "../components/Section";
 import Donut from "../components/Donut";
-import { money, palette, percent, sum } from "../utils/budget";
+import { colorAt, money, percent, sum } from "../utils/budget";
 
 const allocations = [
     { label: "Student Organizations", value: 780000, body: "Registered student orgs, competition teams and org travel grants." },
@@ -31,13 +31,13 @@ export default function StudentGovernment() {
                     {allocations.map((row, i) => (
                         <li key={row.label}>
                             <div className="sg-row">
-                                <span className="dot" style={{ background: palette[i] }} />
+                                <span className="dot" style={{ background: colorAt(i) }} />
                                 <span>{row.label}</span>
                                 <strong>{money(row.value)}</strong>
                             </div>
                             <p>{row.body}</p>
                             <div className="track">
-                                <span style={{ width: percent(row.value, total), background: palette[i] }} />
+                                <span style={{ width: percent(row.value, total), background: colorAt(i) }} />
                             </div>
                         </li>
                     ))}

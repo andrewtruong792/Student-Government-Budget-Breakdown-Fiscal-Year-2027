@@ -10,7 +10,7 @@
     border: 1px solid rgba(255, 252, 240, 0.15);
     border-radius: var(--radius);
 }
-.expenses-chart rect {
+.expenses-chart svg > g rect {
     cursor: pointer;
 }
 

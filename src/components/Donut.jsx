@@ -1,13 +1,13 @@
 // Donut.jsx
 import "./Donut.css";
-import { palette, sum } from "../utils/budget";
+import { colorAt, sum } from "../utils/budget";
 
 export default function Donut({ rows, label, value, caption }) {
     const total = sum(rows);
     let start = 0;
     const stops = rows.map((row, i) => {
         const end = start + (row.value / total) * 100;
-        const stop = `${palette[i % palette.length]} ${start}% ${end}%`;
+        const stop = `${colorAt(i)} ${start}% ${end}%`;
         start = end;
         return stop;
     });

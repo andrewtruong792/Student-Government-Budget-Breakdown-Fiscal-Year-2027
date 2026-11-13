@@ -28,11 +28,11 @@
     text-decoration: none;
     margin-bottom: 14px;
 }
-.footer-heading {
-    font-size: 11px !important;
+.footer-grid .footer-heading {
+    font-size: 11px;
     letter-spacing: 0.2em;
     text-transform: uppercase;
-    opacity: 0.6 !important;
+    opacity: 0.6;
 }
 .footer-bottom {
     display: flex;

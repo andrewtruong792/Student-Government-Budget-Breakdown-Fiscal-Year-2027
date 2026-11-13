@@ -1,6 +1,10 @@
 // budget.js
 export const palette = ["#2D6B76", "#E76E50", "#FFCB52", "#CAA644", "#F4A462"];
 
+export function colorAt(i) {
+    return palette[i % palette.length];
+}
+
 export const sections = [
     { id: "about", label: "About" },
     { id: "overview", label: "Overview" },
