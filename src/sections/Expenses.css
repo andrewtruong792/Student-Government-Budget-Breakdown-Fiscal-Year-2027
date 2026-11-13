@@ -7,7 +7,7 @@
     height: 590px;
     padding: 24px;
     background: var(--teal-soft);
-    border: 1px solid rgba(255, 252, 240, 0.15);
+    border: 1px solid color-mix(in srgb, var(--cream) 15%, transparent);
     border-radius: var(--radius);
 }
 .expenses-chart svg > g rect {
@@ -17,8 +17,8 @@
 .expenses-detail {
     display: flex;
     flex-direction: column;
-    background: var(--cream);
-    color: var(--teal);
+    background: var(--page);
+    color: var(--text);
 }
 .expenses-tag {
     align-self: flex-start;

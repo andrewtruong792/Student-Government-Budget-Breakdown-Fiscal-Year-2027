@@ -1,7 +1,14 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './style.css'
+import colors from './data/colors.json'
 import App from './App.jsx'
+
+const root = document.documentElement.style
+root.setProperty('--text', colors.text)
+for (const [name, hex] of Object.entries({ ...colors.primary, ...colors.supplementary })) {
+  root.setProperty(`--${name}`, hex)
+}
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

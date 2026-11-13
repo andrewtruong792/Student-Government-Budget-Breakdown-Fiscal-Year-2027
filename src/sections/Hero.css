@@ -18,8 +18,8 @@
     font-weight: 600;
     letter-spacing: 0.2em;
     text-transform: uppercase;
-    color: var(--yellow);
-    border: 1px solid rgba(255, 203, 82, 0.5);
+    color: var(--aqua);
+    border: 1px solid color-mix(in srgb, var(--aqua) 50%, transparent);
     border-radius: 999px;
     padding: 8px 16px;
     margin: 0 0 24px;
@@ -43,7 +43,7 @@
 }
 .hero__outline {
     color: var(--cream);
-    border-color: rgba(255, 252, 240, 0.4);
+    border-color: color-mix(in srgb, var(--cream) 40%, transparent);
 }
 .hero__stats {
     display: flex;
@@ -52,7 +52,7 @@
     max-width: 760px;
     margin-top: 48px;
     padding-top: 32px;
-    border-top: 1px solid rgba(255, 252, 240, 0.2);
+    border-top: 1px solid color-mix(in srgb, var(--cream) 20%, transparent);
 }
 .hero__stats .eyebrow {
     display: block;

@@ -64,7 +64,7 @@
     margin-bottom: 10px;
 }
 .overview-track {
-    background: rgba(255, 252, 240, 0.15);
+    background: color-mix(in srgb, var(--cream) 15%, transparent);
 }
 .overview-link {
     display: inline-block;

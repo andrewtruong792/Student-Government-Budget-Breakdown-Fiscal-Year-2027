@@ -1,5 +1,8 @@
 // budget.js
-export const palette = ["#2D6B76", "#E76E50", "#FFCB52", "#CAA644", "#F4A462"];
+import colors from "../data/colors.json";
+
+export { colors };
+export const palette = colors.graphs;
 
 export function colorAt(i) {
     return palette[i % palette.length];

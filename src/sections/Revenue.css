@@ -1,6 +1,6 @@
 .revenue-card {
     padding: 0;
-    overflow: hidden;
+    overflow: clip;
 }
 .revenue-toolbar {
     display: flex;
@@ -35,6 +35,12 @@
     display: grid;
     padding: 40px;
     border-right: 1px solid var(--border);
+}
+.revenue-chart-area .donut {
+    position: sticky;
+    top: 112px;
+    align-self: start;
+    margin: 0 auto;
 }
 
 .revenue-list {

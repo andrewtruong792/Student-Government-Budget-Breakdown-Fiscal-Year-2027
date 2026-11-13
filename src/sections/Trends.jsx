@@ -4,7 +4,7 @@ import { useState } from "react";
 import { ResponsiveBar } from "@nivo/bar";
 import Section from "../components/Section";
 import { useYear } from "../context/YearContext";
-import { money, totalRevenue } from "../utils/budget";
+import { colors, money, totalRevenue } from "../utils/budget";
 import useNarrow from "../utils/useNarrow";
 
 const series = [
@@ -60,15 +60,15 @@ export default function Trends() {
                     margin={{ top: 16, right: 8, bottom: 32, left: 64 }}
                     padding={0.3}
                     innerPadding={4}
-                    colors={({ id }) => (id === "Revenue" ? "#2D6B76" : "#E76E50")}
+                    colors={({ id }) => (id === "Revenue" ? colors.primary.accent : colors.supplementary.tan)}
                     borderRadius={6}
                     enableLabel={false}
                     axisLeft={{ tickSize: 0, tickPadding: 8, tickValues: 5, format: money }}
                     axisBottom={{ tickSize: 0, tickPadding: 10, format: (v) => (narrow ? `'${v.slice(-2)}` : v) }}
                     valueFormat={money}
                     theme={{
-                        axis: { ticks: { text: { fontSize: 12, fill: "#39676F" } } },
-                        grid: { line: { stroke: "#E7E0CA", strokeDasharray: "4 4" } },
+                        axis: { ticks: { text: { fontSize: 12, fill: "var(--text-muted)" } } },
+                        grid: { line: { stroke: "var(--border)", strokeDasharray: "4 4" } },
                     }}
                 />
             </div>

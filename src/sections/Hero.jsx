@@ -15,7 +15,7 @@ export default function Hero() {
     ];
 
     return (
-        <section id="top" className="hero" style={{ backgroundImage: `linear-gradient(rgba(0, 66, 66, 0.55), rgba(0, 66, 66, 0.95)), url(${campus})` }}>
+        <section id="top" className="hero" style={{ backgroundImage: `linear-gradient(color-mix(in srgb, var(--text) 55%, transparent), color-mix(in srgb, var(--text) 95%, transparent)), url(${campus})` }}>
             <div className="hero__inner">
                 <p className="hero__badge">Fiscal year {year - 1}-{year.slice(2)} · Student Government</p>
                 <h1>Where every<br />dollar goes.</h1>

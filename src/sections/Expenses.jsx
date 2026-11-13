@@ -5,7 +5,7 @@ import { ResponsiveBar } from "@nivo/bar";
 import Section from "../components/Section";
 import CountUp from "../components/CountUp";
 import { useYear } from "../context/YearContext";
-import { expenseRows, money, percent } from "../utils/budget";
+import { colors, expenseRows, money, percent } from "../utils/budget";
 import useNarrow from "../utils/useNarrow";
 
 function shorten(label) {
@@ -44,7 +44,7 @@ export default function Expenses() {
                         layout="horizontal"
                         margin={{ top: 8, right: 16, bottom: 8, left: narrow ? 120 : 230 }}
                         padding={0.45}
-                        colors={(bar) => (bar.data.label === active.label ? "#E76E50" : "#CAA644")}
+                        colors={(bar) => (bar.data.label === active.label ? colors.primary.mint : colors.supplementary.yellow)}
                         borderRadius={10}
                         enableGridY={false}
                         enableLabel={false}
@@ -52,7 +52,7 @@ export default function Expenses() {
                         axisLeft={{ tickSize: 0, tickPadding: 12, format: narrow ? shorten : undefined }}
                         tooltip={() => null}
                         onClick={(bar) => setSelected(bar.data.label)}
-                        theme={{ axis: { ticks: { text: { fontSize: 13, fill: "#FFFCF0" } } } }}
+                        theme={{ axis: { ticks: { text: { fontSize: 13, fill: "var(--cream)" } } } }}
                     />
                 </div>
 
