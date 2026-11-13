@@ -11,6 +11,7 @@ root.setProperty('--text', colors.text)
 for (const [name, hex] of Object.entries({ ...colors.primary, ...colors.supplementary })) {
   root.setProperty(`--${name}`, hex)
 }
+document.querySelector("meta[name='theme-color']").content = colors.text
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
