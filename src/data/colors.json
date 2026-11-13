@@ -6,5 +6,6 @@
         "#2E6A75", "#E1977C", "#8DB47B", "#97BDD8", "#CFB286",
         "#B2AFD1", "#6AA698", "#F8C5B5", "#6DADB8", "#F6E1B1",
         "#939BA6", "#E1C8D7", "#A5C2A1", "#B0C4C6"
-    ]
+    ],
+    "shades": { "page": "#FFFDF5", "muted": "#EDF9F9", "teal-soft": "#175151", "text-muted": "#427171", "border": "#E6ECEC", "track": "#F0F4F4" }
 }

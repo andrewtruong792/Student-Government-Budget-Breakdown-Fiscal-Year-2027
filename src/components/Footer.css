@@ -42,7 +42,7 @@
     gap: 12px;
     margin-top: 48px;
     padding-top: 24px;
-    border-top: 1px solid color-mix(in srgb, var(--cream) 15%, transparent);
+    border-top: 1px solid var(--line-on-dark);
     font-size: 12px;
     opacity: 0.7;
 }

@@ -34,7 +34,7 @@ export default function Hero() {
                 </p>
                 <div className="hero__buttons">
                     <a className="pill pill--yellow" href="#overview">Explore the breakdown</a>
-                    <a className="pill hero__outline" href="#revenue">See where it comes from</a>
+                    <a className="pill pill--outline-dark" href="#revenue">See where it comes from</a>
                 </div>
                 <div className="hero__stats">
                     {stats.map((s) => (

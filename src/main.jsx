@@ -8,7 +8,7 @@ import App from './App.jsx'
 
 const root = document.documentElement.style
 root.setProperty('--text', colors.text)
-for (const [name, hex] of Object.entries({ ...colors.primary, ...colors.supplementary })) {
+for (const [name, hex] of Object.entries({ ...colors.primary, ...colors.supplementary, ...colors.shades })) {
   root.setProperty(`--${name}`, hex)
 }
 document.querySelector("meta[name='theme-color']").content = colors.text

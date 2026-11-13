@@ -31,7 +31,7 @@
 .hero__badge {
     display: inline-block;
     color: var(--aqua);
-    border: 1px solid color-mix(in srgb, var(--aqua) 50%, transparent);
+    border: 1px solid var(--outline-on-dark);
     border-radius: var(--radius-pill);
     padding: 8px 16px;
     margin: 0 0 24px;
@@ -55,10 +55,6 @@
     flex-wrap: wrap;
     gap: 12px;
 }
-.hero__outline {
-    color: var(--cream);
-    border-color: color-mix(in srgb, var(--cream) 40%, transparent);
-}
 .hero__stats {
     display: flex;
     flex-wrap: wrap;
@@ -66,7 +62,7 @@
     max-width: 760px;
     margin-top: 48px;
     padding-top: 32px;
-    border-top: 1px solid color-mix(in srgb, var(--cream) 20%, transparent);
+    border-top: 1px solid var(--line-on-dark);
 }
 .hero__stats .eyebrow {
     display: block;

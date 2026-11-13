@@ -64,7 +64,7 @@
     margin-bottom: 10px;
 }
 .overview-track {
-    background: color-mix(in srgb, var(--cream) 15%, transparent);
+    background: var(--line-on-dark);
 }
 .overview-link {
     display: inline-block;

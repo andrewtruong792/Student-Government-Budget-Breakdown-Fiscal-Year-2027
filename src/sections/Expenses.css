@@ -7,7 +7,7 @@
     height: 590px;
     padding: 24px;
     background: var(--teal-soft);
-    border: 1px solid color-mix(in srgb, var(--cream) 15%, transparent);
+    border: 1px solid var(--line-on-dark);
     border-radius: var(--radius);
 }
 .expenses-chart svg > g rect {

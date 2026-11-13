@@ -54,7 +54,7 @@ export default function About() {
                 </div>
                 <div className="about-contact__links">
                     <a className="pill pill--yellow" href="mailto:sg@utdallas.edu">sg@utdallas.edu</a>
-                    <a className="pill about-contact__outline" href="https://instagram.com/utdsg">@utdsg</a>
+                    <a className="pill pill--outline-dark" href="https://instagram.com/utdsg">@utdsg</a>
                 </div>
             </div>
         </Section>
