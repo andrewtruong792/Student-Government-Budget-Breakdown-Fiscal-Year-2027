@@ -1,0 +1,10 @@
+{
+    "primary": ["#6ACDCD", "#46DBC4", "#139F9F"],
+    "text": "#034242",
+    "supplementary": ["#FFF8DC", "#C89062", "#F7C852"],
+    "graphs": [
+        "#A5C2A1", "#8DB47B", "#6AA698", "#97BDD8", "#6DADB8",
+        "#E1C8D7", "#B2AFD1", "#B0C4C6", "#939BA6", "#2E6A75",
+        "#F6E1B1", "#F8C5B5", "#E1977C", "#CFB286"
+    ]
+}
