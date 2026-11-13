@@ -4,6 +4,7 @@ import hero828 from "../assets/hero-828.webp";
 import hero1280 from "../assets/hero-1280.webp";
 import hero1920 from "../assets/hero-1920.webp";
 import CountUp from "../components/CountUp";
+import Icon from "../components/Icon";
 import { useYear } from "../context/YearContext";
 import { fiscalYear, fy, totalRevenue } from "../utils/budget";
 
@@ -33,7 +34,9 @@ export default function Hero() {
                     A plain-language breakdown of UT Dallas's {fy(year)} budget, built by Student Government.
                 </p>
                 <div className="hero__buttons">
-                    <a className="pill pill--yellow" href="#overview">Explore the breakdown</a>
+                    <a className="pill pill--yellow" href="#overview">
+                        Explore the breakdown <Icon name="arrowDownRight" />
+                    </a>
                     <a className="pill pill--outline-dark" href="#revenue">See where it comes from</a>
                 </div>
                 <div className="hero__stats">

@@ -116,7 +116,7 @@ a { color: inherit; }
 .pill--yellow { background: var(--yellow); border-color: var(--yellow); }
 .pill--active { background: var(--text); border-color: var(--text); color: var(--cream); }
 .pill--quiet { border-color: transparent; font-weight: 500; }
-.pill--outline-dark { color: var(--cream); border-color: var(--outline-on-dark); }
+.pill--outline-dark { color: var(--cream); border-color: var(--outline-on-dark); font-weight: 500; }
 
 .pill-toggle {
     display: flex;

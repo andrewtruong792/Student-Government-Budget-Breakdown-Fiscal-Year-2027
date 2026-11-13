@@ -5,7 +5,7 @@
     min-height: calc(100svh - var(--header-h));
     display: flex;
     align-items: flex-end;
-    padding: 96px var(--gutter) 72px;
+    padding: 128px var(--gutter) 80px;
     background: var(--text);
     color: var(--cream);
     scroll-margin-top: var(--header-h);
@@ -15,7 +15,9 @@
     position: absolute;
     inset: 0;
     z-index: -1;
-    background: linear-gradient(color-mix(in srgb, var(--text) 55%, transparent), color-mix(in srgb, var(--text) 95%, transparent));
+    background:
+        radial-gradient(ellipse at 75% 15%, color-mix(in srgb, var(--yellow) 22%, transparent), transparent 55%),
+        linear-gradient(to top, var(--text), color-mix(in srgb, var(--text) 85%, transparent), color-mix(in srgb, var(--text) 55%, transparent));
 }
 .hero__bg {
     position: absolute;
@@ -29,50 +31,71 @@
     width: 100%;
 }
 .hero__badge {
-    display: inline-block;
-    color: var(--aqua);
-    border: 1px solid var(--outline-on-dark);
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    min-height: 30px;
+    font-size: 0.68rem;
+    letter-spacing: 0.22em;
+    color: var(--yellow);
+    background: color-mix(in srgb, var(--text) 40%, transparent);
+    backdrop-filter: blur(4px);
+    border: 1px solid color-mix(in srgb, var(--yellow) 40%, transparent);
     border-radius: var(--radius-pill);
-    padding: 8px 16px;
-    margin: 0 0 24px;
+    padding: 6px 16px;
+    margin: 0 0 28px;
     text-wrap: balance;
 }
+.hero__badge::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--yellow);
+}
 .hero h1 {
-    font-size: clamp(48px, 7vw, 76px);
-    line-height: 1.05;
-    letter-spacing: -0.03em;
+    font-size: clamp(41.6px, 7vw, 76px);
+    line-height: 1.02;
+    letter-spacing: -0.02em;
     text-wrap: balance;
 }
 .hero__lead {
-    max-width: 500px;
-    font-size: 18px;
-    line-height: 1.5;
-    opacity: 0.9;
-    margin: 24px 0 32px;
+    max-width: 576px;
+    font-size: 16.8px;
+    line-height: 1.625;
+    color: var(--text-on-dark);
+    margin: 24px 0 36px;
 }
 .hero__buttons {
     display: flex;
     flex-wrap: wrap;
     gap: 12px;
 }
+.hero__buttons .pill {
+    padding: 14px 24px;
+    font-size: 0.9rem;
+}
 .hero__stats {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px 64px;
-    max-width: 760px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    max-width: 672px;
     margin-top: 48px;
-    padding-top: 32px;
+    padding-top: 28px;
     border-top: 1px solid var(--line-on-dark);
 }
 .hero__stats .eyebrow {
     display: block;
-    font-size: 11px;
-    opacity: 0.75;
-    margin-bottom: 8px;
+    font-size: 9.92px;
+    font-weight: 400;
+    color: var(--text-on-dark);
+    margin-bottom: 6px;
 }
 .hero__stats strong {
     font-family: var(--font-heading);
-    font-size: 26px;
+    font-size: 24px;
+    line-height: 1.5;
+    white-space: nowrap;
 }
 .hero__stats div:first-child strong {
     color: var(--yellow);
@@ -80,7 +103,6 @@
 
 @media (max-width: 800px) {
     .hero__stats {
-        display: grid;
         grid-template-columns: repeat(2, max-content);
         gap: 24px 48px;
     }
