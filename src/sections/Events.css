@@ -1,10 +1,19 @@
 .events-pill {
     background: var(--white);
+    padding: 10px 16px;
+    font-size: 12.8px;
 }
 .events-empty {
     border-style: dashed;
     text-align: center;
     padding: 64px 28px;
+}
+.events-icon {
+    width: 44px;
+    height: 44px;
+    margin-bottom: 16px;
+    background: var(--muted);
+    color: var(--accent);
 }
 .events-empty h3 {
     font-size: 20px;

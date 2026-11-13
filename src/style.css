@@ -4,6 +4,7 @@
     --outline-on-dark: color-mix(in srgb, var(--cream) 40%, transparent);
     --text-on-dark: color-mix(in srgb, var(--cream) 80%, transparent);
     --radius: 24px;
+    --radius-small: 16px;
     --radius-pill: 999px;
     --content: 1088px;
     --header-h: 72px;
@@ -132,6 +133,17 @@ a { color: inherit; }
 }
 .pill-toggle .pill {
     white-space: nowrap;
+}
+
+.icon-circle {
+    display: inline-grid;
+    place-items: center;
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--yellow);
+    color: var(--text);
 }
 
 .track {

@@ -1,11 +1,12 @@
 // About.jsx
 import "./About.css";
 import Section from "../components/Section";
+import Icon from "../components/Icon";
 
 const values = [
-    { title: "Student-run", body: "Written and reviewed by students, not staff." },
-    { title: "Updated yearly", body: "Republished each fall with the new budget." },
-    { title: "No jargon", body: "Every category explained in a sentence." },
+    { icon: "usersRound", title: "Student-run", body: "Written and reviewed by students, not staff." },
+    { icon: "refresh", title: "Updated yearly", body: "Republished each fall with the new budget." },
+    { icon: "sparkles", title: "No jargon", body: "Every category explained in a sentence." },
 ];
 
 const team = [
@@ -30,6 +31,7 @@ export default function About() {
             <div className="about-values card card--dark">
                 {values.map((v) => (
                     <div key={v.title}>
+                        <span className="icon-circle"><Icon name={v.icon} /></span>
                         <h3>{v.title}</h3>
                         <p>{v.body}</p>
                     </div>
@@ -41,7 +43,7 @@ export default function About() {
                     <div key={person.name} className="card">
                         <span className={i % 2 ? "about-avatar about-avatar--yellow" : "about-avatar"}>{initials(person.name)}</span>
                         <h3>{person.name}</h3>
-                        <p>{person.role}</p>
+                        <p className="about-role">{person.role}</p>
                         <p>{person.group}</p>
                     </div>
                 ))}

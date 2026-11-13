@@ -2,14 +2,15 @@
 import "./Overview.css";
 import Section from "../components/Section";
 import CountUp from "../components/CountUp";
+import Icon from "../components/Icon";
 import Track from "../components/Track";
 import { useYear } from "../context/YearContext";
 import { expenseRows, money, percent, revenueSources, totalRevenue } from "../utils/budget";
 
 const steps = [
-    { title: "Collect the source", body: "The annual operating budget and audited financial statements." },
-    { title: "Group it consistently", body: "Every line is filed under the same categories each year, so comparisons hold." },
-    { title: "Have students review it", body: "The Student Government budget team checks each total before publishing." },
+    { icon: "search", title: "Collect the source", body: "The annual operating budget and audited financial statements." },
+    { icon: "layers", title: "Group it consistently", body: "Every line is filed under the same categories each year, so comparisons hold." },
+    { icon: "fileCheck", title: "Have students review it", body: "The Student Government budget team checks each total before publishing." },
 ];
 
 export default function Overview() {
@@ -46,12 +47,15 @@ export default function Overview() {
 
             <div className="overview-grid">
                 <div className="card">
-                    <span className="eyebrow">How we built this report</span>
+                    <span className="eyebrow overview-eyebrow">How we built this report</span>
                     <ol className="overview-steps">
                         {steps.map((step, i) => (
                             <li key={step.title}>
-                                <h3><span>{String(i + 1).padStart(2, "0")}</span> {step.title}</h3>
-                                <p>{step.body}</p>
+                                <span className="icon-circle overview-step-icon"><Icon name={step.icon} /></span>
+                                <div>
+                                    <h3><span>{String(i + 1).padStart(2, "0")}</span> {step.title}</h3>
+                                    <p>{step.body}</p>
+                                </div>
                             </li>
                         ))}
                     </ol>
@@ -70,13 +74,15 @@ export default function Overview() {
                             <div key={row.label} className="overview-item">
                                 <div className="overview-item__head">
                                     <span>{row.label}</span>
-                                    <span>{share}</span>
+                                    <span className="overview-item__pct">{share}</span>
                                 </div>
                                 <Track width={share} color="var(--yellow)" className="overview-track" />
                             </div>
                         );
                     })}
-                    <a className="overview-yellow overview-link" href="#expenses">See the full spending list ↗</a>
+                    <a className="overview-yellow overview-link" href="#expenses">
+                        See the full spending list <Icon name="arrowUpRight" size={14} />
+                    </a>
                 </div>
             </div>
         </Section>

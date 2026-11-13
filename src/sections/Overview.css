@@ -3,16 +3,33 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 16px;
 }
+.overview-stats .card {
+    border-radius: var(--radius-small);
+    padding: 20px;
+}
 .overview-stats strong {
     display: block;
     font-family: var(--font-heading);
-    font-size: 34px;
-    margin-bottom: 12px;
+    font-size: 32px;
+    line-height: 1;
+    margin-bottom: 8px;
+}
+.overview-stats .eyebrow {
+    font-size: 12.8px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    opacity: 0.9;
 }
 .overview-stats p {
-    font-size: 13px;
+    font-size: 12.48px;
+    color: var(--text-muted);
     margin: 8px 0 0;
-    opacity: 0.8;
+}
+.overview-stats .card--dark p {
+    color: var(--text-on-dark);
+}
+.overview-stats .card--yellow p {
+    color: var(--text);
 }
 
 .overview-grid {
@@ -21,13 +38,27 @@
     gap: 16px;
     margin-top: 24px;
 }
+.overview-eyebrow {
+    letter-spacing: 0.22em;
+    color: var(--accent);
+}
 .overview-steps {
     list-style: none;
     padding: 0;
     margin: 24px 0;
 }
+.overview-steps li {
+    display: flex;
+    gap: 16px;
+}
 .overview-steps li + li {
     margin-top: 20px;
+}
+.overview-step-icon {
+    width: 36px;
+    height: 36px;
+    background: var(--muted);
+    color: var(--accent);
 }
 .overview-steps h3 {
     font-family: var(--font-body);
@@ -60,15 +91,24 @@
 .overview-item__head {
     display: flex;
     justify-content: space-between;
-    font-size: 15px;
+    gap: 12px;
+    font-size: 14.08px;
+    font-weight: 500;
     margin-bottom: 10px;
+}
+.overview-item__pct {
+    font-size: 13.6px;
+    font-weight: 400;
+    color: var(--text-on-dark);
 }
 .overview-track {
     background: var(--line-on-dark);
 }
 .overview-link {
-    display: inline-block;
-    font-size: 14px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13.12px;
     font-weight: 600;
     text-decoration: none;
     margin-top: 32px;
