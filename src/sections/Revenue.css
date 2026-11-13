@@ -15,12 +15,11 @@
 }
 .revenue-filters .pill--quiet {
     background: var(--muted);
-    border-color: var(--muted);
 }
 
 .revenue-body {
     display: grid;
-    grid-template-columns: 1fr 1.2fr;
+    grid-template-columns: 0.85fr 1.15fr;
 }
 .revenue-chart-area {
     border-right: 1px solid var(--border);
@@ -33,17 +32,17 @@
 }
 
 .revenue-list li {
-    padding: 18px 28px;
+    padding: 16px 28px;
     cursor: pointer;
 }
 .revenue-list li.is-active {
     background: var(--muted);
 }
 .revenue-list .legend-row {
-    margin-bottom: 10px;
+    font-size: 14.4px;
 }
 .revenue-row__pct {
-    width: 48px;
+    width: 44px;
     text-align: right;
     font-size: 12px;
     color: var(--text-muted);
@@ -51,7 +50,6 @@
 
 @media (max-width: 800px) {
     .revenue-body { grid-template-columns: minmax(0, 1fr); }
-    .revenue-filters .pill { padding: 8px 14px; }
     .revenue-chart-area { border-right: 0; border-bottom: 1px solid var(--border); }
 }
 

@@ -51,8 +51,9 @@ export default function Revenue() {
                 <div className="revenue-body">
                     <div className="donut-area revenue-chart-area">
                         <Donut
-                            key={`${year}-${filter}`}
                             rows={rows}
+                            active={rows.indexOf(activeRow)}
+                            ringKey={`${year}-${filter}`}
                             label={activeRow.label}
                             value={<CountUp value={activeRow.value} />}
                             caption={`${percent(activeRow.value, total)} of total`}

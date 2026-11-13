@@ -1,28 +1,28 @@
 .donut {
     position: relative;
-    width: min(100%, 270px);
+    width: min(100%, 263px);
     aspect-ratio: 1;
     display: grid;
     place-items: center;
     margin: auto;
 }
-.donut::before {
-    content: "";
+.donut__ring {
     position: absolute;
     inset: 0;
     border-radius: 50%;
-    background: conic-gradient(var(--stops));
+    background: conic-gradient(from 90deg, var(--stops));
+    transform: scaleY(-1);
     animation: donut-in 0.7s ease-out;
 }
 @keyframes donut-in {
     from {
         opacity: 0;
-        transform: rotate(-90deg) scale(0.9);
+        transform: scaleY(-1) rotate(-90deg) scale(0.9);
     }
 }
 .donut__center {
     position: relative;
-    width: 64%;
+    width: 66%;
     aspect-ratio: 1;
     border-radius: 50%;
     background: var(--white);
@@ -34,13 +34,14 @@
     text-align: center;
     padding: 12px;
 }
-.donut__center .eyebrow {
+.donut__label {
     font-size: 10px;
     color: var(--text-muted);
 }
 .donut__center strong {
     font-family: var(--font-heading);
     font-size: 28px;
+    line-height: 1;
 }
 .donut__caption {
     font-size: 12px;
