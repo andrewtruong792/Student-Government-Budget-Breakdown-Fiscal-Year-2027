@@ -9,7 +9,7 @@ export default function Donut({ rows, active, ringKey, label, value, caption }) 
         const end = start + (row.value / total) * 100;
         const dimmed = active !== undefined && i !== active;
         const color = dimmed ? `color-mix(in srgb, ${colorAt(i)} 45%, transparent)` : colorAt(i);
-        const stop = `${color} ${start}% calc(${end}% - 2deg), var(--white) 0 ${end}%`;
+        const stop = `${color} ${start}% ${end - 0.5}%, var(--white) 0 ${end}%`;
         start = end;
         return stop;
     });
