@@ -8,7 +8,7 @@ export default function Header() {
     return (
         <header className="site-header">
             <a href="#top" className="header-logo">
-                <img src={logo} alt="Student Government Logo" />
+                <img src={logo} alt="Student Government Logo" width="44" height="44" />
                 <div>
                     <strong>Budget Breakdown</strong>
                     <span>Student Government · UT Dallas</span>
