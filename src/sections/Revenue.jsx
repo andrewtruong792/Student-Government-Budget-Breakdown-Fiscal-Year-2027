@@ -44,12 +44,12 @@ export default function Revenue() {
         >
             <div className="card revenue-card">
                 <div className="revenue-toolbar">
-                    <PillToggle className="revenue-filters" options={filters} value={filter} onChange={changeFilter} />
+                    <PillToggle className="pill-toggle revenue-filters" options={filters} value={filter} onChange={changeFilter} />
                     <span><CountUp value={total} /> total</span>
                 </div>
 
                 <div className="revenue-body">
-                    <div className="revenue-chart-area">
+                    <div className="donut-area revenue-chart-area">
                         <Donut
                             key={`${year}-${filter}`}
                             rows={rows}
@@ -58,7 +58,7 @@ export default function Revenue() {
                             caption={`${percent(activeRow.value, total)} of total`}
                         />
                     </div>
-                    <ul className="revenue-list">
+                    <ul className="legend-list revenue-list">
                         {rows.map((row, i) => {
                             const color = colorAt(i);
                             const share = percent(row.value, total);
@@ -68,9 +68,9 @@ export default function Revenue() {
                                     className={row === activeRow ? "is-active" : ""}
                                     onClick={() => setSelected(row.label)}
                                 >
-                                    <div className="revenue-row">
+                                    <div className="legend-row">
                                         <span className="dot" style={{ background: color }} />
-                                        <span className="revenue-row__label">{row.label}</span>
+                                        <span className="legend-row__label">{row.label}</span>
                                         <strong><CountUp value={row.value} /></strong>
                                         <span className="revenue-row__pct">{share}</span>
                                     </div>

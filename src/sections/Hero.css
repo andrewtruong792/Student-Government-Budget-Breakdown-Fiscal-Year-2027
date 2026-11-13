@@ -2,10 +2,10 @@
     position: relative;
     isolation: isolate;
     overflow: hidden;
-    min-height: calc(100vh - 72px);
+    min-height: calc(100svh - var(--header-h));
     display: flex;
     align-items: flex-end;
-    padding: 96px 24px 72px;
+    padding: 96px var(--gutter) 72px;
     background: var(--text);
     color: var(--cream);
 }
@@ -25,19 +25,13 @@
     object-fit: cover;
 }
 .hero__inner {
-    max-width: 1088px;
     width: 100%;
-    margin: 0 auto;
 }
 .hero__badge {
     display: inline-block;
-    font-size: 12px;
-    font-weight: 600;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
     color: var(--aqua);
     border: 1px solid color-mix(in srgb, var(--aqua) 50%, transparent);
-    border-radius: 999px;
+    border-radius: var(--radius-pill);
     padding: 8px 16px;
     margin: 0 0 24px;
 }

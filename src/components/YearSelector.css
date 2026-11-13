@@ -1,13 +1,6 @@
 .year-selector {
-    font-family: inherit;
-    font-size: 14px;
-    font-weight: 600;
-    color: var(--text);
-    background-color: var(--white);
-    border: 1px solid var(--border);
-    border-radius: 999px;
     padding: 8px 16px;
-    cursor: pointer;
+    background-color: var(--white);
 }
 .year-selector:hover {
     border-color: var(--text);

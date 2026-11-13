@@ -1,7 +1,7 @@
 .site-footer {
     background: var(--text);
     color: var(--cream);
-    padding: 72px max(24px, calc((100% - 1088px) / 2)) 40px;
+    padding: 72px max(var(--gutter), (100% - var(--content)) / 2) 40px;
 }
 .footer-grid {
     display: grid;

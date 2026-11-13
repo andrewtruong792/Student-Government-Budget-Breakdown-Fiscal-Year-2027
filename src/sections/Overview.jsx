@@ -68,7 +68,7 @@ export default function Overview() {
                         const share = percent(row.value, spending);
                         return (
                             <div key={row.label} className="overview-item">
-                                <div>
+                                <div className="overview-item__head">
                                     <span>{row.label}</span>
                                     <span>{share}</span>
                                 </div>

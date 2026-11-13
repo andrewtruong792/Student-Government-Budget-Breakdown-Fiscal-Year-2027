@@ -65,7 +65,7 @@ export default function Expenses() {
                 </div>
 
                 <div className="card expenses-detail">
-                    <span className="expenses-tag">{fy(year)}</span>
+                    <span className="eyebrow expenses-tag">{fy(year)}</span>
                     <h3>{active.label}</h3>
                     <strong><CountUp value={active.value} /></strong>
                     <p className="expenses-full">

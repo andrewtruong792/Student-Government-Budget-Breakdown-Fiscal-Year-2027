@@ -26,8 +26,8 @@ export default function Hero() {
                 alt=""
                 fetchPriority="high"
             />
-            <div className="hero__inner">
-                <p className="hero__badge">Fiscal year {fiscalYear(year)} · Student Government</p>
+            <div className="section__inner hero__inner">
+                <p className="eyebrow hero__badge">Fiscal year {fiscalYear(year)} · Student Government</p>
                 <h1>Where every<br />dollar goes.</h1>
                 <p className="hero__lead">
                     A plain-language breakdown of UT Dallas's {fy(year)} budget, built by Student Government.

@@ -12,11 +12,7 @@
 .about-values h3 {
     font-size: 20px;
 }
-.about-values p {
-    font-size: 14px;
-    opacity: 0.8;
-    margin: 8px 0 0;
-}
+.about-values p,
 
 .about-team {
     display: grid;

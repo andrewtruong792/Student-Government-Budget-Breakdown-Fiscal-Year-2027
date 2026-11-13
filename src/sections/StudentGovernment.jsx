@@ -25,17 +25,17 @@ export default function StudentGovernment() {
             lead="Budget Breakdown is run out of the Student Government office. This is the slice of student money our team allocates directly, split by what it funds."
         >
             <div className="sg-grid">
-                <div className="card sg-chart">
+                <div className="card donut-area sg-chart">
                     <Donut rows={allocations} label="SG allocation" value={money(total)} />
                 </div>
-                <ul className="card sg-list">
+                <ul className="card legend-list sg-list">
                     {allocations.map((row, i) => {
                         const color = colorAt(i);
                         return (
                             <li key={row.label}>
-                                <div className="sg-row">
+                                <div className="legend-row">
                                     <span className="dot" style={{ background: color }} />
-                                    <span>{row.label}</span>
+                                    <span className="legend-row__label">{row.label}</span>
                                     <strong>{money(row.value)}</strong>
                                 </div>
                                 <p>{row.body}</p>

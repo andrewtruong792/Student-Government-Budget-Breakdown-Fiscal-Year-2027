@@ -46,7 +46,7 @@ export default function Trends() {
             label="Budget trends"
             title="How the budget moves over time."
             lead="Revenue and spending have tracked each other closely. Switch the series to isolate one side of the ledger."
-            aside={<PillToggle className="trends-toggle" options={series} value={view} onChange={setView} />}
+            aside={<PillToggle className="pill-toggle trends-toggle" options={series} value={view} onChange={setView} />}
         >
             <div className="card trends-chart">
                 <ResponsiveBar

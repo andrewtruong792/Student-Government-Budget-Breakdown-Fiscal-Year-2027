@@ -6,8 +6,8 @@
     align-items: center;
     justify-content: space-between;
     gap: 24px;
-    height: 72px;
-    padding: 0 max(24px, calc((100% - 1088px) / 2));
+    height: var(--header-h);
+    padding: 0 max(var(--gutter), (100% - var(--content)) / 2);
     background: color-mix(in srgb, var(--page) 85%, transparent);
     backdrop-filter: blur(8px);
     border-bottom: 1px solid var(--border);
@@ -54,6 +54,5 @@
 }
 
 @media (max-width: 480px) {
-    .site-header { padding: 0 16px; }
     .header-logo span { display: none; }
 }

@@ -57,7 +57,7 @@
 .overview-item {
     margin-top: 24px;
 }
-.overview-item > div:first-child {
+.overview-item__head {
     display: flex;
     justify-content: space-between;
     font-size: 15px;

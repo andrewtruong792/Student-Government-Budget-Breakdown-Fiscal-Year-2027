@@ -39,10 +39,10 @@ export default function About() {
             <div className="about-team">
                 {team.map((person, i) => (
                     <div key={person.name} className="card">
-                        <span className={`about-avatar ${i % 2 ? "about-avatar--yellow" : ""}`}>{initials(person.name)}</span>
+                        <span className={i % 2 ? "about-avatar about-avatar--yellow" : "about-avatar"}>{initials(person.name)}</span>
                         <h3>{person.name}</h3>
                         <p>{person.role}</p>
-                        <p className="about-group">{person.group}</p>
+                        <p>{person.group}</p>
                     </div>
                 ))}
             </div>

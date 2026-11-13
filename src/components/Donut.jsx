@@ -17,7 +17,7 @@ export default function Donut({ rows, label, value, caption }) {
             <div className="donut__center">
                 <span className="eyebrow">{label}</span>
                 <strong>{value}</strong>
-                {caption && <span>{caption}</span>}
+                {caption && <span className="donut__caption">{caption}</span>}
             </div>
         </div>
     );

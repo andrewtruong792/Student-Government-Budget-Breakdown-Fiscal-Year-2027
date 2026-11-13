@@ -13,18 +13,9 @@
     font-size: 13px;
     color: var(--text-muted);
 }
-.revenue-filters {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-}
-.revenue-filters .pill {
-    white-space: nowrap;
-}
-.revenue-filters .pill:not(.pill--active) {
+.revenue-filters .pill--quiet {
     background: var(--muted);
     border-color: var(--muted);
-    font-weight: 500;
 }
 
 .revenue-body {
@@ -32,8 +23,6 @@
     grid-template-columns: 1fr 1.2fr;
 }
 .revenue-chart-area {
-    display: grid;
-    padding: 40px;
     border-right: 1px solid var(--border);
 }
 .revenue-chart-area .donut {
@@ -43,30 +32,15 @@
     margin: 0 auto;
 }
 
-.revenue-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
 .revenue-list li {
     padding: 18px 28px;
     cursor: pointer;
 }
-.revenue-list li + li {
-    border-top: 1px solid var(--border);
-}
 .revenue-list li.is-active {
     background: var(--muted);
 }
-.revenue-row {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    font-size: 15px;
+.revenue-list .legend-row {
     margin-bottom: 10px;
-}
-.revenue-row__label {
-    flex: 1;
 }
 .revenue-row__pct {
     width: 48px;
