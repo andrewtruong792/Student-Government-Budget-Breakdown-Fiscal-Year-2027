@@ -50,7 +50,11 @@
 }
 
 @media (max-width: 800px) {
-    .revenue-body { grid-template-columns: 1fr; }
+    .revenue-body { grid-template-columns: minmax(0, 1fr); }
     .revenue-filters .pill { padding: 8px 14px; }
     .revenue-chart-area { border-right: 0; border-bottom: 1px solid var(--border); }
+}
+
+@media (max-width: 480px) {
+    .revenue-list li { padding: 16px 20px; }
 }

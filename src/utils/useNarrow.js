@@ -1,7 +1,7 @@
 // useNarrow.js
 import { useEffect, useState } from "react";
 
-const query = "(max-width: 960px)";
+const query = "(max-width: 600px)";
 
 export default function useNarrow() {
     const [narrow, setNarrow] = useState(() => window.matchMedia(query).matches);

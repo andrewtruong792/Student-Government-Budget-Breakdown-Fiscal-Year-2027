@@ -16,7 +16,7 @@
 }
 
 @media (max-width: 800px) {
-    :root { --gutter: 16px; }
+    :root { --gutter: 20px; }
 }
 
 * { box-sizing: border-box; }
@@ -73,6 +73,7 @@ a { color: inherit; }
     font-size: 44px;
     letter-spacing: -0.025em;
     line-height: 1.1;
+    text-wrap: balance;
 }
 .section__lead {
     max-width: 680px;
@@ -80,6 +81,7 @@ a { color: inherit; }
     line-height: 1.6;
     color: var(--text-muted);
     margin: 16px 0 0;
+    text-wrap: pretty;
 }
 .section--dark .section__lead { color: color-mix(in srgb, var(--cream) 80%, transparent); }
 

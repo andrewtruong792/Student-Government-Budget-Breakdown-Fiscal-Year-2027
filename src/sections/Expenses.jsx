@@ -50,7 +50,7 @@ export default function Expenses() {
                         keys={["value"]}
                         indexBy="label"
                         layout="horizontal"
-                        margin={{ top: 8, right: 16, bottom: 8, left: narrow ? 120 : 230 }}
+                        margin={{ top: 8, right: 16, bottom: 8, left: narrow ? 128 : 230 }}
                         padding={0.45}
                         colors={(bar) => (bar.data.label === active.label ? colors.primary.mint : colors.supplementary.yellow)}
                         borderRadius={10}
