@@ -12,7 +12,7 @@ const values = [
 const team = [
     { name: "David Baker", role: "Co-Committee Chair", group: "Leadership" },
     { name: "Divya Sakthivel", role: "Budget Analyst Chair", group: "Budget Analysts" },
-    { name: "Colton Rupe", role: "Programming Chair", group: "Programming" },
+    { name: "Andrew Truong", role: "Programming Chair", group: "Programming" },
 ];
 
 function initials(name) {
