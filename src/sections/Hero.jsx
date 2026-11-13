@@ -1,6 +1,8 @@
 // Hero.jsx
 import "./Hero.css";
-import campus from "../assets/campusBG.png";
+import hero828 from "../assets/hero-828.webp";
+import hero1280 from "../assets/hero-1280.webp";
+import hero1920 from "../assets/hero-1920.webp";
 import CountUp from "../components/CountUp";
 import { useYear } from "../context/YearContext";
 import { totalRevenue } from "../utils/budget";
@@ -15,7 +17,15 @@ export default function Hero() {
     ];
 
     return (
-        <section id="top" className="hero" style={{ backgroundImage: `linear-gradient(color-mix(in srgb, var(--text) 55%, transparent), color-mix(in srgb, var(--text) 95%, transparent)), url(${campus})` }}>
+        <section id="top" className="hero">
+            <img
+                className="hero__bg"
+                src={hero1920}
+                srcSet={`${hero828} 828w, ${hero1280} 1280w, ${hero1920} 1920w`}
+                sizes="100vw"
+                alt=""
+                fetchPriority="high"
+            />
             <div className="hero__inner">
                 <p className="hero__badge">Fiscal year {year - 1}-{year.slice(2)} · Student Government</p>
                 <h1>Where every<br />dollar goes.</h1>
