@@ -1,6 +1,5 @@
 .trends-toggle {
     flex-wrap: nowrap;
-    gap: 4px;
     padding: 6px;
     background: var(--white);
     border: 1px solid var(--border);
@@ -9,7 +8,6 @@
 
 .trends-chart {
     height: 380px;
-    padding: 24px;
 }
 
 .trends-stats {
@@ -18,14 +16,24 @@
     gap: 16px;
     margin: 16px 0;
 }
+.trends-stats .card {
+    border-radius: var(--radius-small);
+    padding: 20px;
+}
 .trends-stats strong {
     display: block;
     font-family: var(--font-heading);
-    font-size: 28px;
-    margin-bottom: 8px;
+    font-size: 25.6px;
+    line-height: 1.5;
 }
 .trends-stats .eyebrow {
+    font-size: 12.48px;
+    font-weight: 400;
+    letter-spacing: 0.14em;
     color: var(--text-muted);
+}
+.trends-stats .card--yellow .eyebrow {
+    color: var(--text);
 }
 
 .trends-table {
@@ -35,24 +43,36 @@
 .trends-table table {
     width: 100%;
     border-collapse: collapse;
-    font-size: 14px;
+    font-size: 13.6px;
 }
 .trends-table th {
-    font-size: 11px;
+    font-size: 10.4px;
     font-weight: 500;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.16em;
     text-transform: uppercase;
     color: var(--text-muted);
 }
 .trends-table th,
 .trends-table td {
-    padding: 16px 28px;
+    padding: 14px 12px;
     text-align: right;
     border-bottom: 1px solid var(--border);
 }
+.trends-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
 .trends-table th:first-child,
 .trends-table td:first-child {
+    padding-left: 28px;
     text-align: left;
+}
+.trends-table th:last-child,
+.trends-table td:last-child {
+    padding-right: 28px;
+}
+.trends-table td:first-child {
+    font-weight: 500;
 }
 .trends-table tr:last-child td {
     border-bottom: 0;
@@ -63,6 +83,8 @@
 
 @media (max-width: 800px) {
     .trends-stats { grid-template-columns: 1fr; }
-    .trends-table th,
-    .trends-table td { padding: 12px; }
+    .trends-table th:first-child,
+    .trends-table td:first-child { padding-left: 12px; }
+    .trends-table th:last-child,
+    .trends-table td:last-child { padding-right: 12px; }
 }

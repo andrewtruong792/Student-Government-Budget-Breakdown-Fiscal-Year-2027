@@ -29,6 +29,7 @@ const stats = [
 
 const margin = { top: 16, right: 8, bottom: 32, left: 64 };
 const theme = {
+    text: { fontFamily: "var(--font-body)" },
     axis: { ticks: { text: { fontSize: 12, fill: "var(--text-muted)" } } },
     grid: { line: { stroke: "var(--border)", strokeDasharray: "4 4" } },
 };

@@ -7,21 +7,40 @@ import CountUp from "../components/CountUp";
 import Track from "../components/Track";
 import { getBudget, useYear, years } from "../context/YearContext";
 import { colors, expenseRows, formatPercent, fy, money, percent, percentChange, previousYear } from "../utils/budget";
-import useNarrow from "../utils/useNarrow";
 
-const theme = { axis: { ticks: { text: { fontSize: 13, fill: "var(--cream)" } } } };
-
-function shorten(label) {
-    return label.length > 16 ? `${label.slice(0, 15)}…` : label;
-}
+const margin = { top: 8, right: 16, bottom: 8, left: 132 };
+const theme = { text: { fontFamily: "var(--font-body)" } };
+const tickStyle = { fontFamily: "var(--font-body)", fontSize: 12, fontWeight: 500, fill: "var(--cream)" };
 
 function dollars(value) {
     return `$${Math.round(value).toLocaleString()}`;
 }
 
+function wrapLabel(label, maxChars) {
+    const lines = [];
+    for (const word of label.split(" ")) {
+        const last = lines[lines.length - 1];
+        if (last && `${last} ${word}`.length <= maxChars) lines[lines.length - 1] = `${last} ${word}`;
+        else lines.push(word);
+    }
+    return lines;
+}
+
+function LabelTick({ x, y, value }) {
+    const lines = wrapLabel(value, 16);
+    return (
+        <g transform={`translate(${x - 12},${y})`}>
+            <text textAnchor="end" dominantBaseline="middle" style={tickStyle}>
+                {lines.map((line, i) => (
+                    <tspan key={i} x={0} dy={i === 0 ? `${-(lines.length - 1) * 0.6}em` : "1.2em"}>{line}</tspan>
+                ))}
+            </text>
+        </g>
+    );
+}
+
 export default function Expenses() {
     const { year, budget } = useYear();
-    const narrow = useNarrow();
     const rows = expenseRows(budget);
     const total = budget.operating_expenses.total;
     const [selected, setSelected] = useState(rows[0].label);
@@ -50,14 +69,14 @@ export default function Expenses() {
                         keys={["value"]}
                         indexBy="label"
                         layout="horizontal"
-                        margin={{ top: 8, right: 16, bottom: 8, left: narrow ? 128 : 230 }}
-                        padding={0.45}
+                        margin={margin}
+                        padding={0.62}
                         colors={(bar) => (bar.data.label === active.label ? colors.primary.mint : colors.supplementary.yellow)}
-                        borderRadius={10}
+                        borderRadius={6}
                         enableGridY={false}
                         enableLabel={false}
                         axisBottom={null}
-                        axisLeft={{ tickSize: 0, tickPadding: 12, format: narrow ? shorten : undefined }}
+                        axisLeft={{ tickSize: 0, renderTick: LabelTick }}
                         tooltip={() => null}
                         onClick={(bar) => setSelected(bar.data.label)}
                         theme={theme}
@@ -76,7 +95,7 @@ export default function Expenses() {
                         <span className="eyebrow">Share of spending</span>
                         <span>{share}</span>
                     </div>
-                    <Track width={share} color="var(--accent)" />
+                    <Track width={share} color="var(--accent)" className="expenses-track" />
 
                     {change !== null && (
                         <p className="expenses-change">
