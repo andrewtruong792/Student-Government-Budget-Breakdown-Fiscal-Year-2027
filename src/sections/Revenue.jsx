@@ -1,6 +1,6 @@
 // Revenue.jsx
 import "./Revenue.css";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Section from "../components/Section";
 import Donut from "../components/Donut";
 import CountUp from "../components/CountUp";
@@ -20,9 +20,18 @@ export default function Revenue() {
     const [filter, setFilter] = useState("all");
     const [selected, setSelected] = useState(null);
 
+    useEffect(() => {
+        setSelected(null);
+    }, [year]);
+
     const rows = revenueSources(budget).filter((row) => filter === "all" || row.type === filter);
     const total = sum(rows);
     const activeRow = rows.find((row) => row.label === selected) ?? rows[0];
+
+    function changeFilter(id) {
+        setFilter(id);
+        setSelected(null);
+    }
 
     return (
         <Section
@@ -35,7 +44,7 @@ export default function Revenue() {
         >
             <div className="card revenue-card">
                 <div className="revenue-toolbar">
-                    <PillToggle className="revenue-filters" options={filters} value={filter} onChange={setFilter} />
+                    <PillToggle className="revenue-filters" options={filters} value={filter} onChange={changeFilter} />
                     <span><CountUp value={total} /> total</span>
                 </div>
 

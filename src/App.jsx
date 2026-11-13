@@ -1,4 +1,5 @@
 // App.jsx
+import { useEffect } from "react";
 import { YearProvider } from "./context/YearContext";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -12,6 +13,11 @@ import Trends from "./sections/Trends";
 import Events from "./sections/Events";
 
 function App() {
+  useEffect(() => {
+    const target = window.location.hash && document.getElementById(window.location.hash.slice(1));
+    if (target) document.fonts.ready.then(() => target.scrollIntoView());
+  }, []);
+
   return (
     <YearProvider>
       <Header />
