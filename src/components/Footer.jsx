@@ -1,7 +1,8 @@
 // Footer.jsx
 import "./Footer.css";
 import { useYear } from "../context/YearContext";
-import { sections } from "../utils/budget";
+import { fiscalYear } from "../utils/budget";
+import { sections } from "../utils/sections";
 
 export default function Footer() {
     const { year } = useYear();
@@ -30,7 +31,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className="footer-bottom">
-                <span>© 2026 Budget Breakdown · Fiscal Year {year - 1}-{year.slice(2)}</span>
+                <span>© 2026 Budget Breakdown · Fiscal Year {fiscalYear(year)}</span>
                 <span>Source: UT Dallas Annual Budget Reports</span>
             </div>
         </footer>

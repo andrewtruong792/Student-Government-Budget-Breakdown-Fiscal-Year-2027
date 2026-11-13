@@ -4,27 +4,35 @@ import { useState } from "react";
 import { ResponsiveBar } from "@nivo/bar";
 import Section from "../components/Section";
 import CountUp from "../components/CountUp";
-import { useYear } from "../context/YearContext";
-import { colors, expenseRows, money, percent } from "../utils/budget";
+import Track from "../components/Track";
+import { getBudget, useYear, years } from "../context/YearContext";
+import { colors, expenseRows, formatPercent, fy, money, percent, percentChange, previousYear } from "../utils/budget";
 import useNarrow from "../utils/useNarrow";
+
+const theme = { axis: { ticks: { text: { fontSize: 13, fill: "var(--cream)" } } } };
 
 function shorten(label) {
     return label.length > 16 ? `${label.slice(0, 15)}…` : label;
 }
 
+function dollars(value) {
+    return `$${Math.round(value).toLocaleString()}`;
+}
+
 export default function Expenses() {
-    const { year, years, budget, getBudget } = useYear();
+    const { year, budget } = useYear();
     const narrow = useNarrow();
     const rows = expenseRows(budget);
     const total = budget.operating_expenses.total;
     const [selected, setSelected] = useState(rows[0].label);
     const active = rows.find((row) => row.label === selected) ?? rows[0];
+    const share = percent(active.value, total);
 
-    const lastYear = String(year - 1);
+    const lastYear = previousYear(year);
     const previous = years.includes(lastYear)
         ? getBudget(lastYear).operating_expenses.rows.find((row) => row.label === active.label)
         : null;
-    const change = previous ? ((active.value - previous.value) / previous.value) * 100 : null;
+    const change = previous ? percentChange(previous.value, active.value) : null;
 
     return (
         <Section
@@ -52,29 +60,27 @@ export default function Expenses() {
                         axisLeft={{ tickSize: 0, tickPadding: 12, format: narrow ? shorten : undefined }}
                         tooltip={() => null}
                         onClick={(bar) => setSelected(bar.data.label)}
-                        theme={{ axis: { ticks: { text: { fontSize: 13, fill: "var(--cream)" } } } }}
+                        theme={theme}
                     />
                 </div>
 
                 <div className="card expenses-detail">
-                    <span className="expenses-tag">FY{year.slice(2)}</span>
+                    <span className="expenses-tag">{fy(year)}</span>
                     <h3>{active.label}</h3>
                     <strong><CountUp value={active.value} /></strong>
                     <p className="expenses-full">
-                        <CountUp value={active.value} format={(v) => `$${Math.round(v).toLocaleString()}`} />
+                        <CountUp value={active.value} format={dollars} />
                     </p>
 
                     <div className="expenses-share">
                         <span className="eyebrow">Share of spending</span>
-                        <span>{percent(active.value, total)}</span>
+                        <span>{share}</span>
                     </div>
-                    <div className="track">
-                        <span style={{ width: percent(active.value, total), background: "var(--accent)" }} />
-                    </div>
+                    <Track width={share} color="var(--accent)" />
 
                     {change !== null && (
                         <p className="expenses-change">
-                            {change >= 0 ? "Up" : "Down"} {Math.abs(change).toFixed(1)}% from FY{lastYear.slice(2)}.
+                            {change >= 0 ? "Up" : "Down"} {formatPercent(Math.abs(change))} from {fy(lastYear)}.
                         </p>
                     )}
 

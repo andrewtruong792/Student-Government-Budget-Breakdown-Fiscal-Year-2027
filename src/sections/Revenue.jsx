@@ -4,6 +4,8 @@ import { useState } from "react";
 import Section from "../components/Section";
 import Donut from "../components/Donut";
 import CountUp from "../components/CountUp";
+import PillToggle from "../components/PillToggle";
+import Track from "../components/Track";
 import { useYear } from "../context/YearContext";
 import { colorAt, percent, revenueSources, sum } from "../utils/budget";
 
@@ -33,17 +35,7 @@ export default function Revenue() {
         >
             <div className="card revenue-card">
                 <div className="revenue-toolbar">
-                    <div className="revenue-filters">
-                        {filters.map((f) => (
-                            <button
-                                key={f.id}
-                                className={`pill ${filter === f.id ? "pill--active" : ""}`}
-                                onClick={() => setFilter(f.id)}
-                            >
-                                {f.label}
-                            </button>
-                        ))}
-                    </div>
+                    <PillToggle className="revenue-filters" options={filters} value={filter} onChange={setFilter} />
                     <span><CountUp value={total} /> total</span>
                 </div>
 
@@ -58,23 +50,25 @@ export default function Revenue() {
                         />
                     </div>
                     <ul className="revenue-list">
-                        {rows.map((row, i) => (
-                            <li
-                                key={row.label}
-                                className={row === activeRow ? "is-active" : ""}
-                                onClick={() => setSelected(row.label)}
-                            >
-                                <div className="revenue-row">
-                                    <span className="dot" style={{ background: colorAt(i) }} />
-                                    <span className="revenue-row__label">{row.label}</span>
-                                    <strong><CountUp value={row.value} /></strong>
-                                    <span className="revenue-row__pct">{percent(row.value, total)}</span>
-                                </div>
-                                <div className="track">
-                                    <span style={{ width: percent(row.value, total), background: colorAt(i) }} />
-                                </div>
-                            </li>
-                        ))}
+                        {rows.map((row, i) => {
+                            const color = colorAt(i);
+                            const share = percent(row.value, total);
+                            return (
+                                <li
+                                    key={row.label}
+                                    className={row === activeRow ? "is-active" : ""}
+                                    onClick={() => setSelected(row.label)}
+                                >
+                                    <div className="revenue-row">
+                                        <span className="dot" style={{ background: color }} />
+                                        <span className="revenue-row__label">{row.label}</span>
+                                        <strong><CountUp value={row.value} /></strong>
+                                        <span className="revenue-row__pct">{share}</span>
+                                    </div>
+                                    <Track width={share} color={color} />
+                                </li>
+                            );
+                        })}
                     </ul>
                 </div>
             </div>

@@ -2,7 +2,7 @@
 import "./Header.css";
 import logo from "../assets/logo.webp";
 import YearSelector from "./YearSelector";
-import { sections } from "../utils/budget";
+import { sections } from "../utils/sections";
 
 export default function Header() {
     return (

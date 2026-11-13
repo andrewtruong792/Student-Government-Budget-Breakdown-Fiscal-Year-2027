@@ -2,6 +2,7 @@
 import "./StudentGovernment.css";
 import Section from "../components/Section";
 import Donut from "../components/Donut";
+import Track from "../components/Track";
 import { colorAt, money, percent, sum } from "../utils/budget";
 
 const allocations = [
@@ -28,19 +29,20 @@ export default function StudentGovernment() {
                     <Donut rows={allocations} label="SG allocation" value={money(total)} />
                 </div>
                 <ul className="card sg-list">
-                    {allocations.map((row, i) => (
-                        <li key={row.label}>
-                            <div className="sg-row">
-                                <span className="dot" style={{ background: colorAt(i) }} />
-                                <span>{row.label}</span>
-                                <strong>{money(row.value)}</strong>
-                            </div>
-                            <p>{row.body}</p>
-                            <div className="track">
-                                <span style={{ width: percent(row.value, total), background: colorAt(i) }} />
-                            </div>
-                        </li>
-                    ))}
+                    {allocations.map((row, i) => {
+                        const color = colorAt(i);
+                        return (
+                            <li key={row.label}>
+                                <div className="sg-row">
+                                    <span className="dot" style={{ background: color }} />
+                                    <span>{row.label}</span>
+                                    <strong>{money(row.value)}</strong>
+                                </div>
+                                <p>{row.body}</p>
+                                <Track width={percent(row.value, total)} color={color} />
+                            </li>
+                        );
+                    })}
                 </ul>
             </div>
         </Section>

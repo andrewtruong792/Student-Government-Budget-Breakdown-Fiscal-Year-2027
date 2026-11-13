@@ -34,7 +34,7 @@ export function YearProvider({ children }) {
     }, [year]);
 
     return (
-        <YearContext.Provider value={{ year, setYear, years, budget: getBudget(year), getBudget }}>
+        <YearContext.Provider value={{ year, setYear, years, budget: getBudget(year) }}>
             {children}
         </YearContext.Provider>
     );

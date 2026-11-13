@@ -5,7 +5,7 @@ import hero1280 from "../assets/hero-1280.webp";
 import hero1920 from "../assets/hero-1920.webp";
 import CountUp from "../components/CountUp";
 import { useYear } from "../context/YearContext";
-import { totalRevenue } from "../utils/budget";
+import { fiscalYear, fy, totalRevenue } from "../utils/budget";
 
 export default function Hero() {
     const { year, budget } = useYear();
@@ -27,10 +27,10 @@ export default function Hero() {
                 fetchPriority="high"
             />
             <div className="hero__inner">
-                <p className="hero__badge">Fiscal year {year - 1}-{year.slice(2)} · Student Government</p>
+                <p className="hero__badge">Fiscal year {fiscalYear(year)} · Student Government</p>
                 <h1>Where every<br />dollar goes.</h1>
                 <p className="hero__lead">
-                    A plain-language breakdown of UT Dallas's FY{year.slice(2)} budget, built by Student Government.
+                    A plain-language breakdown of UT Dallas's {fy(year)} budget, built by Student Government.
                 </p>
                 <div className="hero__buttons">
                     <a className="pill pill--yellow" href="#overview">Explore the breakdown</a>

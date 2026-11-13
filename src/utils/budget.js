@@ -8,15 +8,17 @@ export function colorAt(i) {
     return palette[i % palette.length];
 }
 
-export const sections = [
-    { id: "about", label: "About" },
-    { id: "overview", label: "Overview" },
-    { id: "revenue", label: "Revenue" },
-    { id: "expenses", label: "Expenses" },
-    { id: "sg", label: "Student Government" },
-    { id: "trends", label: "Trends" },
-    { id: "events", label: "Events" },
-];
+export function previousYear(year) {
+    return String(Number(year) - 1);
+}
+
+export function fiscalYear(year) {
+    return `${previousYear(year)}-${String(year).slice(2)}`;
+}
+
+export function fy(year) {
+    return `FY${String(year).slice(2)}`;
+}
 
 export function money(value) {
     const sign = value < 0 ? "-" : "";
@@ -27,8 +29,21 @@ export function money(value) {
     return `${sign}$${abs}`;
 }
 
+export function formatPercent(n) {
+    return `${n.toFixed(1)}%`;
+}
+
 export function percent(part, whole) {
-    return `${((part / whole) * 100).toFixed(1)}%`;
+    return formatPercent((part / whole) * 100);
+}
+
+export function percentChange(from, to) {
+    return ((to - from) / from) * 100;
+}
+
+export function signedPercent(n) {
+    if (n === null) return "—";
+    return `${n >= 0 ? "+" : ""}${formatPercent(n)}`;
 }
 
 export function sum(rows) {
