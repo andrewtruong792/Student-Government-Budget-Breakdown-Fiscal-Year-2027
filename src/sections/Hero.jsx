@@ -6,14 +6,19 @@ import hero1920 from "../assets/hero-1920.webp";
 import CountUp from "../components/CountUp";
 import Icon from "../components/Icon";
 import { useYear } from "../context/YearContext";
+import enrollment from "../data/enrollment.json";
 import { fiscalYear, fy, totalRevenue } from "../utils/budget";
+
+const enrolledYears = Object.keys(enrollment).filter((y) => enrollment[y].fall);
+const latestEnrolled = enrolledYears[enrolledYears.length - 1];
 
 export default function Hero() {
     const { year, budget } = useYear();
+    const students = (enrollment[year] ?? enrollment[latestEnrolled]).fall.total.total;
     const stats = [
         { label: "Total revenue", value: <CountUp value={totalRevenue(budget)} /> },
         { label: "Total spending", value: <CountUp value={budget.operating_expenses.total} /> },
-        { label: "Students served", value: "31,000" },
+        { label: "Students served", value: students.toLocaleString() },
         { label: "Report updated", value: "Jan 2026" },
     ];
 

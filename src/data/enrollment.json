@@ -1,0 +1,781 @@
+{
+    "2012": {
+        "fall": {
+            "graduate": {
+                "full_time": 4157,
+                "part_time": 2889,
+                "total": 7046
+            },
+            "undergraduate": {
+                "full_time": 9149,
+                "part_time": 2669,
+                "total": 11818
+            },
+            "total": {
+                "full_time": 13306,
+                "part_time": 5558,
+                "total": 18864
+            }
+        },
+        "spring": {
+            "graduate": {
+                "full_time": 3832,
+                "part_time": 2825,
+                "total": 6657
+            },
+            "undergraduate": {
+                "full_time": 8604,
+                "part_time": 2561,
+                "total": 11165
+            },
+            "total": {
+                "full_time": 12436,
+                "part_time": 5386,
+                "total": 17822
+            }
+        },
+        "summer": {
+            "graduate": {
+                "full_time": 473,
+                "part_time": 3279,
+                "total": 3752
+            },
+            "undergraduate": {
+                "full_time": 344,
+                "part_time": 3210,
+                "total": 3554
+            },
+            "total": {
+                "full_time": 817,
+                "part_time": 6489,
+                "total": 7306
+            }
+        }
+    },
+    "2013": {
+        "fall": {
+            "graduate": {
+                "full_time": 4789,
+                "part_time": 2850,
+                "total": 7639
+            },
+            "undergraduate": {
+                "full_time": 9514,
+                "part_time": 2574,
+                "total": 12088
+            },
+            "total": {
+                "full_time": 14303,
+                "part_time": 5424,
+                "total": 19727
+            }
+        },
+        "spring": {
+            "graduate": {
+                "full_time": 4339,
+                "part_time": 2997,
+                "total": 7336
+            },
+            "undergraduate": {
+                "full_time": 8879,
+                "part_time": 2488,
+                "total": 11367
+            },
+            "total": {
+                "full_time": 13218,
+                "part_time": 5485,
+                "total": 18703
+            }
+        },
+        "summer": {
+            "graduate": {
+                "full_time": 465,
+                "part_time": 3537,
+                "total": 4002
+            },
+            "undergraduate": {
+                "full_time": 307,
+                "part_time": 3218,
+                "total": 3525
+            },
+            "total": {
+                "full_time": 772,
+                "part_time": 6755,
+                "total": 7527
+            }
+        }
+    },
+    "2014": {
+        "fall": {
+            "graduate": {
+                "full_time": 5352,
+                "part_time": 2731,
+                "total": 8083
+            },
+            "undergraduate": {
+                "full_time": 10649,
+                "part_time": 2461,
+                "total": 13110
+            },
+            "total": {
+                "full_time": 16001,
+                "part_time": 5192,
+                "total": 21193
+            }
+        },
+        "spring": {
+            "graduate": {
+                "full_time": 4733,
+                "part_time": 2976,
+                "total": 7709
+            },
+            "undergraduate": {
+                "full_time": 9654,
+                "part_time": 2562,
+                "total": 12216
+            },
+            "total": {
+                "full_time": 14387,
+                "part_time": 5538,
+                "total": 19925
+            }
+        },
+        "summer": {
+            "graduate": {
+                "full_time": 452,
+                "part_time": 3775,
+                "total": 4227
+            },
+            "undergraduate": {
+                "full_time": 286,
+                "part_time": 3368,
+                "total": 3654
+            },
+            "total": {
+                "full_time": 738,
+                "part_time": 7143,
+                "total": 7881
+            }
+        }
+    },
+    "2015": {
+        "fall": {
+            "graduate": {
+                "full_time": 5940,
+                "part_time": 2762,
+                "total": 8702
+            },
+            "undergraduate": {
+                "full_time": 11641,
+                "part_time": 2752,
+                "total": 14393
+            },
+            "total": {
+                "full_time": 17581,
+                "part_time": 5514,
+                "total": 23095
+            }
+        },
+        "spring": {
+            "graduate": {
+                "full_time": 5337,
+                "part_time": 2995,
+                "total": 8332
+            },
+            "undergraduate": {
+                "full_time": 10674,
+                "part_time": 2799,
+                "total": 13473
+            },
+            "total": {
+                "full_time": 16011,
+                "part_time": 5794,
+                "total": 21805
+            }
+        },
+        "summer": {
+            "graduate": {
+                "full_time": 476,
+                "part_time": 4088,
+                "total": 4564
+            },
+            "undergraduate": {
+                "full_time": 292,
+                "part_time": 3621,
+                "total": 3913
+            },
+            "total": {
+                "full_time": 768,
+                "part_time": 7709,
+                "total": 8477
+            }
+        }
+    },
+    "2016": {
+        "fall": {
+            "graduate": {
+                "full_time": 6124,
+                "part_time": 2788,
+                "total": 8912
+            },
+            "undergraduate": {
+                "full_time": 12764,
+                "part_time": 2878,
+                "total": 15642
+            },
+            "total": {
+                "full_time": 18888,
+                "part_time": 5666,
+                "total": 24554
+            }
+        },
+        "spring": {
+            "graduate": {
+                "full_time": 5415,
+                "part_time": 3001,
+                "total": 8416
+            },
+            "undergraduate": {
+                "full_time": 11803,
+                "part_time": 2896,
+                "total": 14699
+            },
+            "total": {
+                "full_time": 17218,
+                "part_time": 5897,
+                "total": 23115
+            }
+        },
+        "summer": {
+            "graduate": {
+                "full_time": 506,
+                "part_time": 4047,
+                "total": 4553
+            },
+            "undergraduate": {
+                "full_time": 312,
+                "part_time": 3984,
+                "total": 4296
+            },
+            "total": {
+                "full_time": 818,
+                "part_time": 8031,
+                "total": 8849
+            }
+        }
+    },
+    "2017": {
+        "fall": {
+            "graduate": {
+                "full_time": 6472,
+                "part_time": 2837,
+                "total": 9309
+            },
+            "undergraduate": {
+                "full_time": 14372,
+                "part_time": 3112,
+                "total": 17484
+            },
+            "total": {
+                "full_time": 20844,
+                "part_time": 5949,
+                "total": 26793
+            }
+        },
+        "spring": {
+            "graduate": {
+                "full_time": 5636,
+                "part_time": 3023,
+                "total": 8659
+            },
+            "undergraduate": {
+                "full_time": 13113,
+                "part_time": 3117,
+                "total": 16230
+            },
+            "total": {
+                "full_time": 18749,
+                "part_time": 6140,
+                "total": 24889
+            }
+        },
+        "summer": {
+            "graduate": {
+                "full_time": 535,
+                "part_time": 3984,
+                "total": 4519
+            },
+            "undergraduate": {
+                "full_time": 315,
+                "part_time": 4281,
+                "total": 4596
+            },
+            "total": {
+                "full_time": 850,
+                "part_time": 8265,
+                "total": 9115
+            }
+        }
+    },
+    "2018": {
+        "fall": {
+            "graduate": {
+                "full_time": 6326,
+                "part_time": 2790,
+                "total": 9116
+            },
+            "undergraduate": {
+                "full_time": 15339,
+                "part_time": 3187,
+                "total": 18526
+            },
+            "total": {
+                "full_time": 21665,
+                "part_time": 5977,
+                "total": 27642
+            }
+        },
+        "spring": {
+            "graduate": {
+                "full_time": 5322,
+                "part_time": 3223,
+                "total": 8545
+            },
+            "undergraduate": {
+                "full_time": 13876,
+                "part_time": 3377,
+                "total": 17253
+            },
+            "total": {
+                "full_time": 19198,
+                "part_time": 6600,
+                "total": 25798
+            }
+        },
+        "summer": {
+            "graduate": {
+                "full_time": 526,
+                "part_time": 3640,
+                "total": 4166
+            },
+            "undergraduate": {
+                "full_time": 333,
+                "part_time": 4235,
+                "total": 4568
+            },
+            "total": {
+                "full_time": 859,
+                "part_time": 7875,
+                "total": 8734
+            }
+        }
+    },
+    "2019": {
+        "fall": {
+            "graduate": {
+                "full_time": 5967,
+                "part_time": 2789,
+                "total": 8756
+            },
+            "undergraduate": {
+                "full_time": 16736,
+                "part_time": 3263,
+                "total": 19999
+            },
+            "total": {
+                "full_time": 22703,
+                "part_time": 6052,
+                "total": 28755
+            }
+        },
+        "spring": {
+            "graduate": {
+                "full_time": 5079,
+                "part_time": 3014,
+                "total": 8093
+            },
+            "undergraduate": {
+                "full_time": 15201,
+                "part_time": 3264,
+                "total": 18465
+            },
+            "total": {
+                "full_time": 20280,
+                "part_time": 6278,
+                "total": 26558
+            }
+        },
+        "summer": {
+            "graduate": {
+                "full_time": 502,
+                "part_time": 3674,
+                "total": 4176
+            },
+            "undergraduate": {
+                "full_time": 423,
+                "part_time": 4366,
+                "total": 4789
+            },
+            "total": {
+                "full_time": 925,
+                "part_time": 8040,
+                "total": 8965
+            }
+        }
+    },
+    "2020": {
+        "fall": {
+            "graduate": {
+                "full_time": 5714,
+                "part_time": 2720,
+                "total": 8434
+            },
+            "undergraduate": {
+                "full_time": 17988,
+                "part_time": 3121,
+                "total": 21109
+            },
+            "total": {
+                "full_time": 23702,
+                "part_time": 5841,
+                "total": 29543
+            }
+        },
+        "spring": {
+            "graduate": {
+                "full_time": 4998,
+                "part_time": 2888,
+                "total": 7886
+            },
+            "undergraduate": {
+                "full_time": 16248,
+                "part_time": 3303,
+                "total": 19551
+            },
+            "total": {
+                "full_time": 21246,
+                "part_time": 6191,
+                "total": 27437
+            }
+        },
+        "summer": {
+            "graduate": {
+                "full_time": 491,
+                "part_time": 3601,
+                "total": 4092
+            },
+            "undergraduate": {
+                "full_time": 801,
+                "part_time": 5134,
+                "total": 5935
+            },
+            "total": {
+                "full_time": 1292,
+                "part_time": 8735,
+                "total": 10027
+            }
+        }
+    },
+    "2021": {
+        "fall": {
+            "graduate": {
+                "full_time": 4912,
+                "part_time": 2469,
+                "total": 7381
+            },
+            "undergraduate": {
+                "full_time": 18022,
+                "part_time": 3266,
+                "total": 21288
+            },
+            "total": {
+                "full_time": 22934,
+                "part_time": 5735,
+                "total": 28669
+            }
+        },
+        "spring": {
+            "graduate": {
+                "full_time": 4288,
+                "part_time": 2964,
+                "total": 7252
+            },
+            "undergraduate": {
+                "full_time": 16161,
+                "part_time": 3409,
+                "total": 19570
+            },
+            "total": {
+                "full_time": 20449,
+                "part_time": 6373,
+                "total": 26822
+            }
+        },
+        "summer": {
+            "graduate": {
+                "full_time": 453,
+                "part_time": 3067,
+                "total": 3520
+            },
+            "undergraduate": {
+                "full_time": 673,
+                "part_time": 4709,
+                "total": 5382
+            },
+            "total": {
+                "full_time": 1126,
+                "part_time": 7776,
+                "total": 8902
+            }
+        }
+    },
+    "2022": {
+        "fall": {
+            "graduate": {
+                "full_time": 5680,
+                "part_time": 2489,
+                "total": 8169
+            },
+            "undergraduate": {
+                "full_time": 18036,
+                "part_time": 3491,
+                "total": 21527
+            },
+            "total": {
+                "full_time": 23716,
+                "part_time": 5980,
+                "total": 29696
+            }
+        },
+        "spring": {
+            "graduate": {
+                "full_time": 5843,
+                "part_time": 2428,
+                "total": 8271
+            },
+            "undergraduate": {
+                "full_time": 16071,
+                "part_time": 3710,
+                "total": 19781
+            },
+            "total": {
+                "full_time": 21914,
+                "part_time": 6138,
+                "total": 28052
+            }
+        },
+        "summer": {
+            "graduate": {
+                "full_time": 485,
+                "part_time": 4093,
+                "total": 4578
+            },
+            "undergraduate": {
+                "full_time": 439,
+                "part_time": 4067,
+                "total": 4506
+            },
+            "total": {
+                "full_time": 924,
+                "part_time": 8160,
+                "total": 9084
+            }
+        }
+    },
+    "2023": {
+        "fall": {
+            "graduate": {
+                "full_time": 7283,
+                "part_time": 2590,
+                "total": 9873
+            },
+            "undergraduate": {
+                "full_time": 18015,
+                "part_time": 3682,
+                "total": 21697
+            },
+            "total": {
+                "full_time": 25298,
+                "part_time": 6272,
+                "total": 31570
+            }
+        },
+        "spring": {
+            "graduate": {
+                "full_time": 6491,
+                "part_time": 3172,
+                "total": 9663
+            },
+            "undergraduate": {
+                "full_time": 16064,
+                "part_time": 3655,
+                "total": 19719
+            },
+            "total": {
+                "full_time": 22555,
+                "part_time": 6827,
+                "total": 29382
+            }
+        },
+        "summer": {
+            "graduate": {
+                "full_time": 460,
+                "part_time": 3044,
+                "total": 3504
+            },
+            "undergraduate": {
+                "full_time": 437,
+                "part_time": 4155,
+                "total": 4592
+            },
+            "total": {
+                "full_time": 897,
+                "part_time": 7199,
+                "total": 8096
+            }
+        }
+    },
+    "2024": {
+        "fall": {
+            "graduate": {
+                "full_time": 6940,
+                "part_time": 2541,
+                "total": 9481
+            },
+            "undergraduate": {
+                "full_time": 18164,
+                "part_time": 3240,
+                "total": 21404
+            },
+            "total": {
+                "full_time": 25104,
+                "part_time": 5781,
+                "total": 30885
+            }
+        },
+        "spring": {
+            "graduate": {
+                "full_time": 5679,
+                "part_time": 3047,
+                "total": 8726
+            },
+            "undergraduate": {
+                "full_time": 16375,
+                "part_time": 3341,
+                "total": 19716
+            },
+            "total": {
+                "full_time": 22054,
+                "part_time": 6388,
+                "total": 28442
+            }
+        },
+        "summer": {
+            "graduate": {
+                "full_time": 429,
+                "part_time": 2892,
+                "total": 3321
+            },
+            "undergraduate": {
+                "full_time": 423,
+                "part_time": 3969,
+                "total": 4392
+            },
+            "total": {
+                "full_time": 852,
+                "part_time": 6861,
+                "total": 7713
+            }
+        }
+    },
+    "2025": {
+        "fall": {
+            "graduate": {
+                "full_time": 5749,
+                "part_time": 2279,
+                "total": 8028
+            },
+            "undergraduate": {
+                "full_time": 18755,
+                "part_time": 3103,
+                "total": 21858
+            },
+            "total": {
+                "full_time": 24504,
+                "part_time": 5382,
+                "total": 29886
+            }
+        },
+        "spring": {
+            "graduate": {
+                "full_time": 4908,
+                "part_time": 2663,
+                "total": 7571
+            },
+            "undergraduate": {
+                "full_time": 16892,
+                "part_time": 3251,
+                "total": 20143
+            },
+            "total": {
+                "full_time": 21800,
+                "part_time": 5914,
+                "total": 27714
+            }
+        },
+        "summer": {
+            "graduate": {
+                "full_time": 446,
+                "part_time": 2379,
+                "total": 2825
+            },
+            "undergraduate": {
+                "full_time": 488,
+                "part_time": 3888,
+                "total": 4376
+            },
+            "total": {
+                "full_time": 934,
+                "part_time": 6267,
+                "total": 7201
+            }
+        }
+    },
+    "2026": {
+        "fall": {
+            "graduate": {
+                "full_time": 5132,
+                "part_time": 2000,
+                "total": 7132
+            },
+            "undergraduate": {
+                "full_time": 19865,
+                "part_time": 3142,
+                "total": 23007
+            },
+            "total": {
+                "full_time": 24997,
+                "part_time": 5142,
+                "total": 30139
+            }
+        },
+        "spring": {
+            "graduate": {
+                "full_time": 4367,
+                "part_time": 2305,
+                "total": 6672
+            },
+            "undergraduate": {
+                "full_time": 17920,
+                "part_time": 3141,
+                "total": 21061
+            },
+            "total": {
+                "full_time": 22287,
+                "part_time": 5446,
+                "total": 27733
+            }
+        }
+    },
+    "source": "https://oisds.utdallas.edu/statistical-handbook/enrollment/full-time-part-time-status"
+}
