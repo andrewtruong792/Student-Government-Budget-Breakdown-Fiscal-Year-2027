@@ -12,13 +12,17 @@ import { fiscalYear, fy, totalRevenue } from "../utils/budget";
 const enrolledYears = Object.keys(enrollment).filter((y) => enrollment[y].fall);
 const latestEnrolled = enrolledYears[enrolledYears.length - 1];
 
+function count(value) {
+    return Math.round(value).toLocaleString();
+}
+
 export default function Hero() {
     const { year, budget } = useYear();
     const students = (enrollment[year] ?? enrollment[latestEnrolled]).fall.total.total;
     const stats = [
         { label: "Total revenue", value: <CountUp value={totalRevenue(budget)} /> },
         { label: "Total spending", value: <CountUp value={budget.operating_expenses.total} /> },
-        { label: "Students served", value: students.toLocaleString() },
+        { label: "Students served", value: <CountUp value={students} format={count} /> },
         { label: "Report updated", value: "Jan 2026" },
     ];
 
